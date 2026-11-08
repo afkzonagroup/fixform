@@ -404,7 +404,7 @@ Apache License 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE). Copyright 2026 
 
 ## Enterprise
 
-AFKzona Group offers, separately from this open source project: a hosted dashboard, continuous monitoring across many sites, SSO/SAML, roles, audit evidence packs, a legal-update feed and support with an SLA. These are not part of this repository. Contact info@afkzonagroup.lt.
+MB AFKzona Group offers integration into your systems, custom connectors and features, and support agreements. Contact info@afkzonagroup.lt.
 
 ## Contributing
 
