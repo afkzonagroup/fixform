@@ -1,0 +1,337 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/afkzonagroup/fixform/blob/main/data/repair-form.schema.json",
+  "title": "European Repair Information Form (Directive (EU) 2024/1799, Annex I)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "language",
+    "repairer",
+    "good",
+    "defect",
+    "repairType",
+    "price",
+    "completionDays",
+    "temporaryReplacement",
+    "handOverPlace",
+    "ancillaryServices",
+    "validity"
+  ],
+  "$defs": {
+    "money": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "amount",
+        "currency"
+      ],
+      "properties": {
+        "amount": {
+          "description": "Decimal string such as \"129.90\" (a JSON number is also accepted). At most 9 digits before the decimal point; at most 2 decimals (none for ISK).",
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^(0|[1-9][0-9]{0,8})(\\.[0-9]{1,2})?$"
+            },
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 999999999.99
+            }
+          ]
+        },
+        "currency": {
+          "enum": [
+            "EUR",
+            "CZK",
+            "DKK",
+            "HUF",
+            "PLN",
+            "RON",
+            "SEK",
+            "ISK",
+            "CHF",
+            "NOK"
+          ]
+        }
+      }
+    }
+  },
+  "properties": {
+    "language": {
+      "enum": [
+        "bg",
+        "es",
+        "cs",
+        "da",
+        "de",
+        "et",
+        "el",
+        "en",
+        "fr",
+        "ga",
+        "hr",
+        "it",
+        "lv",
+        "lt",
+        "hu",
+        "mt",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "sk",
+        "sl",
+        "fi",
+        "sv"
+      ]
+    },
+    "repairer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "identity",
+        "address",
+        "telephone",
+        "email"
+      ],
+      "properties": {
+        "identity": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "pattern": "^[^\\n]*\\S[^\\n]*$"
+        },
+        "address": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500,
+          "pattern": "\\S"
+        },
+        "telephone": {
+          "type": "string",
+          "maxLength": 40,
+          "pattern": "^\\s*\\+?\\(?[0-9][0-9 ()./-]{2,38}\\s*$"
+        },
+        "email": {
+          "type": "string",
+          "maxLength": 254,
+          "pattern": "^\\s*[^@\\s]+@[^@\\s]+\\.[^@\\s]+\\s*$"
+        },
+        "otherMeans": {
+          "type": "array",
+          "maxItems": 10,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300,
+            "pattern": "^[^\\n]*\\S[^\\n]*$"
+          }
+        }
+      }
+    },
+    "good": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "pattern": "\\S"
+    },
+    "defect": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "pattern": "\\S"
+    },
+    "repairType": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "pattern": "\\S"
+    },
+    "price": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "total"
+          ],
+          "properties": {
+            "type": {
+              "const": "fixed"
+            },
+            "total": {
+              "$ref": "#/$defs/money"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "calculationMethod",
+            "maximum"
+          ],
+          "properties": {
+            "type": {
+              "const": "maximum"
+            },
+            "calculationMethod": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1000,
+              "pattern": "\\S"
+            },
+            "maximum": {
+              "$ref": "#/$defs/money"
+            }
+          }
+        }
+      ]
+    },
+    "completionDays": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3650
+    },
+    "temporaryReplacement": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "available"
+          ],
+          "properties": {
+            "available": {
+              "const": false
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "available",
+            "cost"
+          ],
+          "properties": {
+            "available": {
+              "const": true
+            },
+            "cost": {
+              "$ref": "#/$defs/money"
+            }
+          }
+        }
+      ]
+    },
+    "handOverPlace": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "pattern": "\\S"
+    },
+    "ancillaryServices": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "description",
+          "cost"
+        ],
+        "properties": {
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300,
+            "pattern": "^[^\\n]*\\S[^\\n]*$"
+          },
+          "cost": {
+            "$ref": "#/$defs/money"
+          }
+        }
+      }
+    },
+    "validity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "providedAt",
+        "timeZone"
+      ],
+      "properties": {
+        "providedAt": {
+          "type": "string",
+          "maxLength": 40,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}(:[0-9]{2}(\\.[0-9]{1,9})?)?(Z|[+-][0-9]{2}:[0-9]{2})$"
+        },
+        "timeZone": {
+          "type": "string",
+          "maxLength": 64,
+          "pattern": "^[A-Za-z][A-Za-z0-9_+-]*(/[A-Za-z0-9_+-]+){0,2}$"
+        },
+        "days": {
+          "type": "integer",
+          "minimum": 30,
+          "maximum": 3650
+        },
+        "rollForward": {
+          "oneOf": [
+            {
+              "const": false
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "weekends": {
+                  "type": "boolean"
+                },
+                "publicHolidays": {
+                  "type": "array",
+                  "maxItems": 100,
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "diagnostic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cost",
+        "consumerInformedOn",
+        "deductedFromRepairPrice"
+      ],
+      "properties": {
+        "cost": {
+          "$ref": "#/$defs/money"
+        },
+        "consumerInformedOn": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "deductedFromRepairPrice": {
+          "type": "boolean"
+        }
+      }
+    },
+    "additionalInformation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "pattern": "\\S"
+    }
+  }
+}

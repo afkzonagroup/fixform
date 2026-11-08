@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-typecheck/
+coverage/
+*.tsbuildinfo
+.DS_Store
+*.log
+.env
+.env.*
+test/.doctest/
+test/.tmp/
+examples/express-email/outbox/

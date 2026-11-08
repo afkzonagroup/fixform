@@ -1,0 +1,135 @@
+{
+  "name": "@afkzona/fixform",
+  "version": "0.1.0",
+  "description": "European Repair Information Form (Directive (EU) 2024/1799, Article 4 and Annex I) in all 24 official EU languages: typed model, validation, HTML/text/Markdown rendering, web component, CLI.",
+  "license": "Apache-2.0",
+  "author": "MB AFKzona Group",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afkzonagroup/fixform.git"
+  },
+  "homepage": "https://github.com/afkzonagroup/fixform#readme",
+  "bugs": {
+    "url": "https://github.com/afkzonagroup/fixform/issues"
+  },
+  "keywords": [
+    "right-to-repair",
+    "2024/1799",
+    "european-repair-information-form",
+    "repair",
+    "consumer-law",
+    "web-component",
+    "eu"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "sideEffects": [
+    "./dist/component/define.js",
+    "./dist/react/index.js",
+    "./dist/vue/index.js"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./email": {
+      "types": "./dist/email/index.d.ts",
+      "default": "./dist/email/index.js"
+    },
+    "./server": {
+      "types": "./dist/server/index.d.ts",
+      "default": "./dist/server/index.js"
+    },
+    "./node": {
+      "types": "./dist/server/node.d.ts",
+      "default": "./dist/server/node.js"
+    },
+    "./component": {
+      "types": "./dist/component/index.d.ts",
+      "default": "./dist/component/index.js"
+    },
+    "./component/define": {
+      "types": "./dist/component/define.d.ts",
+      "default": "./dist/component/define.js"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "default": "./dist/react/index.js"
+    },
+    "./vue": {
+      "types": "./dist/vue/index.d.ts",
+      "default": "./dist/vue/index.js"
+    },
+    "./annex-i.json": "./data/annex-i.json",
+    "./repair-form.schema.json": "./data/repair-form.schema.json",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "fixform": "./dist/cli/bin.js"
+  },
+  "files": [
+    "dist/",
+    "!dist/**/*.map",
+    "!dist/**/*.tsbuildinfo",
+    "data/annex-i.json",
+    "data/repair-form.schema.json",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "TRADEMARKS.md"
+  ],
+  "scripts": {
+    "build": "node scripts/clean.mjs && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --coverage",
+    "check": "npm run typecheck && npm run lint && npm run build && npm run test",
+    "annex:verify": "npm run build && node scripts/annex-eurlex.mjs --verify",
+    "schema:write": "npm run build && node scripts/write-schema.mjs",
+    "browsers": "node node_modules/playwright-core/cli.js install chromium-headless-shell",
+    "example": "npm run build && node examples/express-email/server.mjs",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "vue": ">=3.3",
+    "yaml": ">=2.8.0 <3"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    },
+    "yaml": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/express": "5.0.6",
+    "@types/node": "22.20.5",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@vitest/coverage-v8": "4.1.12",
+    "ajv": "8.18.0",
+    "axe-core": "4.14.0",
+    "eslint": "10.13.0",
+    "express": "5.3.0",
+    "happy-dom": "21.0.4",
+    "playwright-core": "1.64.1",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.0",
+    "vitest": "4.1.12",
+    "vue": "3.5.44",
+    "yaml": "2.9.1"
+  }
+}

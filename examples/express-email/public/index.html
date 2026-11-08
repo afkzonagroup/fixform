@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Repair information form</title>
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<main>
+<h1>New repair information form</h1>
+<p>Fill in the form. It is e-mailed to the consumer when you create it.</p>
+<div class="field">
+<label for="consumer-email">Consumer e-mail address</label>
+<input id="consumer-email" type="email" autocomplete="off" required>
+</div>
+<repair-form mode="fill" lang="en" currency="EUR" time-zone="Europe/Vilnius"></repair-form>
+<p id="status" role="status"></p>
+</main>
+<script type="module" src="/app.js"></script>
+</body>
+</html>

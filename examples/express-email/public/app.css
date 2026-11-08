@@ -1,0 +1,6 @@
+body{margin:0;padding:0 16px;font:16px/1.5 system-ui,sans-serif;color:#1a1a1a;background:#fff}
+main{max-width:52rem;margin:0 auto}
+.field{margin:1rem 0}
+label{display:block;font-weight:600;margin-bottom:.25rem}
+input{display:block;width:100%;min-height:2.75rem;padding:.5rem .625rem;font:inherit;border:1px solid #6b6b6b;border-radius:4px}
+#status{font-weight:600}

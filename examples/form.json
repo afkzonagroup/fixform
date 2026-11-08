@@ -1,0 +1,29 @@
+{
+  "language": "en",
+  "repairer": {
+    "identity": "Example Repairs Ltd",
+    "address": "1 Example Street\n01100 Vilnius\nLithuania",
+    "telephone": "+370 600 00000",
+    "email": "repairs@example.com",
+    "otherMeans": ["Chat: https://example.com/chat"]
+  },
+  "good": "Washing machine, brand X, model Y, serial number 12345",
+  "defect": "The drum does not turn. The drive belt is torn.",
+  "repairType": "Replace the drive belt and test a full wash cycle.",
+  "price": { "type": "fixed", "total": { "amount": "89.00", "currency": "EUR" } },
+  "completionDays": 5,
+  "temporaryReplacement": { "available": false },
+  "handOverPlace": "At the consumer's home",
+  "ancillaryServices": [
+    { "description": "Collection and return", "cost": { "amount": "20.00", "currency": "EUR" } }
+  ],
+  "validity": {
+    "providedAt": "2026-11-09T10:15:00+02:00",
+    "timeZone": "Europe/Vilnius"
+  },
+  "diagnostic": {
+    "cost": { "amount": "25.00", "currency": "EUR" },
+    "consumerInformedOn": "2026-11-06",
+    "deductedFromRepairPrice": true
+  }
+}

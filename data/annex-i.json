@@ -1,0 +1,2210 @@
+[
+  {
+    "language": "bg",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ПРИЛОЖЕНИЕ\u00a0I",
+    "formTitle": "ЕВРОПЕЙСКИ ФОРМУЛЯР ЗА ИНФОРМАЦИЯ ОТНОСНО РЕМОНТА",
+    "partOne": {
+      "label": "Част\u00a0I",
+      "heading": "Име и\u00a0координати за връзка на лицето, предоставящо услугата за ремонт"
+    },
+    "partTwo": {
+      "label": "Част\u00a0II",
+      "heading": "Информация относно услугата за ремонт"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Лице, предоставящо услугата за ремонт",
+        "hint": "[Име]"
+      },
+      "address": {
+        "label": "Адрес",
+        "hint": "[Географски адрес, предназначен за използване от потребителя]"
+      },
+      "telephone": {
+        "label": "Телефонен номер",
+        "hint": null
+      },
+      "email": {
+        "label": "Адрес на електронна поща",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Ако са посочени от лицето, предоставящо услугата за ремонт: други средства за онлайн комуникация, които позволяват на потребителя бързо и\u00a0ефикасно да се свърже и\u00a0да общува с лицето, предоставящо услугата за ремонт.",
+        "hint": null
+      },
+      "good": {
+        "label": "Стока за ремонт",
+        "hint": "[Идентификационни данни на стоката]"
+      },
+      "defect": {
+        "label": "Естество на повредата",
+        "hint": "[Описание на повредата]"
+      },
+      "repairType": {
+        "label": "Вид предложен ремонт",
+        "hint": "[Какви мерки ще бъдат предприети за отстраняване на повредата]"
+      },
+      "price": {
+        "label": "Цена на ремонта или, ако тя не може да бъде изчислена, приложимия метод на изчисление и\u00a0максимална цена на ремонта",
+        "hint": "[Това означава общата сума или, ако такава не е\u00a0възможно да бъде посочена, методът на изчисление и\u00a0максималната цена на услугата за ремонт, в\u00a0евро/национална валута]"
+      },
+      "completionTime": {
+        "label": "Срок на ремонта",
+        "hint": "[Срок в\u00a0дни, в\u00a0който лицето, предоставящо услуги за ремонт, се задължава да извърши услугата]"
+      },
+      "replacementAvailable": {
+        "label": "Наличие на временни заместващи стоки",
+        "hint": "[Временна заместваща стока означава, че потребителят ще получи равностойна стока за употреба по време на ремонта, като лицето, предоставящо услуги за ремонт, трябва да посочи „Да“ или „Не“]"
+      },
+      "replacementCost": {
+        "label": "Ако отговорът е\u00a0„да“, посочете разходите за него, ако има такива:",
+        "hint": "[в евро/национална валута]"
+      },
+      "handOverPlace": {
+        "label": "Място за предаване на стоките",
+        "hint": "[Мястото, където потребителят предава стоките за ремонт]"
+      },
+      "ancillaryServices": {
+        "label": "Ако е\u00a0приложимо, наличие на допълнителни услуги",
+        "hint": "[Посочете дали и\u00a0в каква степен се предлагат допълнителни услуги като демонтиране, инсталиране и\u00a0транспортиране, или „Няма“, ако за съответния ремонт не се предлага допълнителна услуга]"
+      },
+      "ancillaryCosts": {
+        "label": "Ако отговорът е\u00a0„да“, посочете разходите за него, ако има такива:",
+        "hint": "[в евро/национална валута, за всяка предложена услуга]"
+      },
+      "validity": {
+        "label": "Срок на валидност на европейския формуляр за информация относно ремонта",
+        "hint": "[Срок на валидност от най-малко 30 дни]"
+      },
+      "additionalInformation": {
+        "label": "Ако е\u00a0приложимо, допълнителна информация",
+        "hint": null
+      }
+    },
+    "note": "В полетата, заградени с квадратни скоби, се дават пояснения за лицето, предоставящо услуги за ремонт, и\u00a0в тях трябва да се нанесе съответната информация.",
+    "words": {
+      "yes": "Да",
+      "no": "Не",
+      "none": "Няма"
+    },
+    "sha256": "7b40f640911d00afd1ee8496b318c94e5a8e7ee3fd7f94a25275724a8b4cce7d"
+  },
+  {
+    "language": "es",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ANEXO\u00a0I",
+    "formTitle": "FORMULARIO EUROPEO DE INFORMACIÓN SOBRE LA REPARACIÓN",
+    "partOne": {
+      "label": "Parte\u00a0I",
+      "heading": "Identidad y datos de contacto del reparador que presta el servicio de reparación"
+    },
+    "partTwo": {
+      "label": "Parte\u00a0II",
+      "heading": "Información sobre el servicio de reparación"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Reparador",
+        "hint": "[Identidad]"
+      },
+      "address": {
+        "label": "Dirección",
+        "hint": "[Dirección geográfica que deberá utilizar el consumidor]"
+      },
+      "telephone": {
+        "label": "Número de teléfono",
+        "hint": null
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Si los proporciona el reparador, otros medios de comunicación en línea que permitan al consumidor ponerse en contacto con el reparador y comunicarse con él de forma rápida y eficiente.",
+        "hint": null
+      },
+      "good": {
+        "label": "Bien que debe repararse",
+        "hint": "[Identificación del bien]"
+      },
+      "defect": {
+        "label": "Naturaleza del defecto",
+        "hint": "[Descripción del defecto]"
+      },
+      "repairType": {
+        "label": "Tipo de reparación sugerida",
+        "hint": "[Qué tipo de medidas se tomarán para reparar el defecto]"
+      },
+      "price": {
+        "label": "Precio de la reparación o, si no puede calcularse, método de cálculo aplicable y precio máximo de la reparación",
+        "hint": "[Esto significa el importe total o, si no es posible calcularlo de antemano, el método de cálculo y el importe máximo del servicio de reparación, en EUR/moneda nacional]"
+      },
+      "completionTime": {
+        "label": "Plazo para completar la reparación",
+        "hint": "[Plazo en el que el reparador se compromete a\u00a0prestar el servicio, expresado en días]"
+      },
+      "replacementAvailable": {
+        "label": "Disponibilidad de bienes de sustitución temporal",
+        "hint": "[Un bien de sustitución temporal implica que el consumidor reciba un bien equivalente para utilizarlo durante el período de reparación; el reparador debe indicar «Sí» o\u00a0«No»]"
+      },
+      "replacementCost": {
+        "label": "En caso afirmativo, indíquense los costes correspondientes, de haberlos:",
+        "hint": "[EUR/moneda nacional]"
+      },
+      "handOverPlace": {
+        "label": "Lugar de entrega de los bienes",
+        "hint": "[El lugar donde el consumidor entrega los bienes para su reparación]"
+      },
+      "ancillaryServices": {
+        "label": "En su caso, la disponibilidad de servicios auxiliares",
+        "hint": "[Indíquese si, y en qué medida, se ofrecen servicios auxiliares tales como la retirada, la instalación y el transporte, o\u00a0bien indíquese «Ninguno» si no se ofrece ningún servicio auxiliar a\u00a0la reparación de que se trate]"
+      },
+      "ancillaryCosts": {
+        "label": "En caso afirmativo, indíquense los costes correspondientes, de haberlos:",
+        "hint": "[En EUR/moneda nacional, por servicio ofrecido]"
+      },
+      "validity": {
+        "label": "Período de validez del formulario europeo de información sobre la reparación",
+        "hint": "[Período de validez de al menos treinta días]"
+      },
+      "additionalInformation": {
+        "label": "En su caso, información adicional",
+        "hint": null
+      }
+    },
+    "note": "Las indicaciones explicativas entre corchetes, dirigidas al reparador, habrán de sustituirse por la información correspondiente.",
+    "words": {
+      "yes": "Sí",
+      "no": "No",
+      "none": "Ninguno"
+    },
+    "sha256": "3b9dcc5dacf94ad15b22da69a3a421d1e4be650babf41c8045f609019e11210f"
+  },
+  {
+    "language": "cs",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "PŘÍLOHA\u00a0I",
+    "formTitle": "EVROPSKÝ INFORMAČNÍ FORMULÁŘ O\u00a0OPRAVĚ",
+    "partOne": {
+      "label": "Část\u00a0I",
+      "heading": "Totožnost a\u00a0kontaktní údaje opraváře poskytujícího opravárenskou službu"
+    },
+    "partTwo": {
+      "label": "Část\u00a0II",
+      "heading": "Informace o\u00a0opravárenské službě"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Opravář",
+        "hint": "[Název]"
+      },
+      "address": {
+        "label": "Adresa",
+        "hint": "[Poštovní adresa, kterou má spotřebitel používat]"
+      },
+      "telephone": {
+        "label": "Telefonní číslo",
+        "hint": null
+      },
+      "email": {
+        "label": "E-mailová adresa",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Jiné prostředky online komunikace, pokud je opravář poskytuje, které spotřebiteli umožňují opraváře rychle a\u00a0efektivně kontaktovat a\u00a0komunikovat s\u00a0ním",
+        "hint": null
+      },
+      "good": {
+        "label": "Zboží, které má být opraveno",
+        "hint": "[Identifikace zboží]"
+      },
+      "defect": {
+        "label": "Povaha vady",
+        "hint": "[Popis vady]"
+      },
+      "repairType": {
+        "label": "Navrhovaný druh opravy",
+        "hint": "[Jaká opatření budou přijata k\u00a0odstranění vady]"
+      },
+      "price": {
+        "label": "Cena za opravu nebo, pokud ji nelze stanovit, použitelný způsob výpočtu a\u00a0maximální cena opravy",
+        "hint": "[To znamená celkovou částku, nebo není-li to možné, způsob výpočtu a\u00a0maximální cenu za opravárenskou službu v\u00a0eurech/státní měně]"
+      },
+      "completionTime": {
+        "label": "Lhůta pro provedení opravy",
+        "hint": "[Lhůta, v\u00a0níž se opravář zavazuje službu provést vyjádřená ve dnech]"
+      },
+      "replacementAvailable": {
+        "label": "Dostupnost dočasného náhradního zboží",
+        "hint": "[Dočasné náhradní zboží znamená, že spotřebitel obdrží rovnocenné zboží pro použití po dobu opravy; opravář musí uvést „ano“ nebo „ne“]"
+      },
+      "replacementCost": {
+        "label": "Pokud ano, uveďte případné odpovídající náklady",
+        "hint": "[V\u00a0eurech/v\u00a0národní měně]"
+      },
+      "handOverPlace": {
+        "label": "Místo pro předání zboží",
+        "hint": "[Místo, kde spotřebitel předá zboží k\u00a0opravě]"
+      },
+      "ancillaryServices": {
+        "label": "V\u00a0příslušných případech dostupnost doplňkových služeb",
+        "hint": "[Uveďte, zda a\u00a0v\u00a0jakém rozsahu jsou nabízeny doplňkové služby, jako je odstranění, instalace a\u00a0přeprava, nebo „Žádné“, pokud pro danou opravu nejsou nabízeny žádné doplňkové služby]"
+      },
+      "ancillaryCosts": {
+        "label": "Pokud ano, uveďte případné odpovídající náklady",
+        "hint": "[V\u00a0eurech/národní měně u\u00a0každé nabízené služby]"
+      },
+      "validity": {
+        "label": "Doba platnosti evropského informačního formuláře o\u00a0opravě",
+        "hint": "[Doba platnosti v\u00a0délce alespoň 30 dní]"
+      },
+      "additionalInformation": {
+        "label": "V\u00a0příslušných případech doplňující informace",
+        "hint": null
+      }
+    },
+    "note": "Údaje v\u00a0hranatých závorkách představují vysvětlivky pro opraváře a\u00a0musí být nahrazeny příslušnými informacemi.",
+    "words": {
+      "yes": "ano",
+      "no": "ne",
+      "none": "Žádné"
+    },
+    "sha256": "c7a420c65d5a37ab86f880c22bf873e6a1fab15f45fe6e4f817b6046bf24be22"
+  },
+  {
+    "language": "da",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "BILAG\u00a0I",
+    "formTitle": "EUROPÆISK REPARATIONSOPLYSNINGSSKEMA",
+    "partOne": {
+      "label": "Del\u00a0I",
+      "heading": "Identitet af og kontaktoplysninger for den reparatør, der leverer reparationstjenesten"
+    },
+    "partTwo": {
+      "label": "Del\u00a0II",
+      "heading": "Oplysninger om reparationstjenesten"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Reparatør",
+        "hint": "[Navn]"
+      },
+      "address": {
+        "label": "Adresse",
+        "hint": "[Fysisk adresse, der skal anvendes af forbrugeren]"
+      },
+      "telephone": {
+        "label": "Telefonnummer",
+        "hint": null
+      },
+      "email": {
+        "label": "E-mailadresse",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Hvis reparatøren stiller sådanne til rådighed, andre elektroniske kommunikationsmidler, som sætter forbrugeren i\u00a0stand til at kontakte og kommunikere med reparatøren hurtigt og effektivt",
+        "hint": null
+      },
+      "good": {
+        "label": "Vare, der skal repareres",
+        "hint": "[Identifikation af varen]"
+      },
+      "defect": {
+        "label": "Defektens art",
+        "hint": "[Beskrivelse af defekten]"
+      },
+      "repairType": {
+        "label": "Foreslået type reparation",
+        "hint": "[Hvilke foranstaltninger vil der blive truffet for at reparere defekten]"
+      },
+      "price": {
+        "label": "Pris for reparationen eller, hvis den ikke kan beregnes, den beregningsmetode, der anvendes, og maksimumspris for reparationen",
+        "hint": "[Det vil sige det samlede beløb eller, hvis dette ikke er muligt, beregningsmetoden og loftet for reparationstjenesten i\u00a0EUR/national valuta]"
+      },
+      "completionTime": {
+        "label": "Tid til færdiggørelse af reparationen",
+        "hint": "[Tidsrum, inden for hvilket reparatøren forpligter sig til at udføre tjenesten, i\u00a0dage]"
+      },
+      "replacementAvailable": {
+        "label": "Tilgængelighed af en midlertidig erstatningsvare",
+        "hint": "[Ved midlertidig erstatningsvare forstås, at forbrugeren vil modtage en tilsvarende vare til brug i\u00a0reparationsperioden; reparatøren skal angive »Ja« eller »Nej«]"
+      },
+      "replacementCost": {
+        "label": "Hvis ja, angives eventuelle tilsvarende omkostninger:",
+        "hint": "[I EUR/national valuta]"
+      },
+      "handOverPlace": {
+        "label": "Sted, hvor varerne overdrages",
+        "hint": "[Det sted, hvor forbrugeren overdrager varerne med henblik på reparation]"
+      },
+      "ancillaryServices": {
+        "label": "Hvis det er relevant, tilgængeligheden af tilknyttede tjenesteydelser",
+        "hint": "[Angiv, om og i\u00a0hvilket omfang der tilbydes tilknyttede tjenesteydelser såsom fjernelse, installation og transport, eller »Ingen«, hvis der ikke tilbydes nogen tilknyttet tjenesteydelse til den pågældende reparation]"
+      },
+      "ancillaryCosts": {
+        "label": "Hvis ja, angives eventuelle tilsvarende omkostninger:",
+        "hint": "[I EUR/national valuta pr. tilbudt tjenesteydelse]"
+      },
+      "validity": {
+        "label": "Gyldighedsperiode for det europæiske reparationsoplysningsskema",
+        "hint": "[Gyldighedsperiode på mindst 30 dage]"
+      },
+      "additionalInformation": {
+        "label": "Hvis det er relevant, yderligere oplysninger",
+        "hint": null
+      }
+    },
+    "note": "Teksten i\u00a0skarp parentes er en forklaring til reparatøren og skal erstattes af de pågældende oplysninger.",
+    "words": {
+      "yes": "Ja",
+      "no": "Nej",
+      "none": "Ingen"
+    },
+    "sha256": "909102fb06fca617c293be23d8a82c9354e01096e1298d9db9731d646409f86f"
+  },
+  {
+    "language": "de",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ANHANG\u00a0I",
+    "formTitle": "EUROPÄISCHES FORMULAR FÜR REPARATURINFORMATIONEN",
+    "partOne": {
+      "label": "Teil\u00a0I",
+      "heading": "Identität und Kontaktdaten des Reparaturbetriebs, der die Reparaturdienstleistung erbringt"
+    },
+    "partTwo": {
+      "label": "Teil\u00a0II",
+      "heading": "Angaben zur Reparaturdienstleistung"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Reparaturbetrieb",
+        "hint": "[Name]"
+      },
+      "address": {
+        "label": "Anschrift",
+        "hint": "[Geografische Anschrift, an die sich Verbraucher wenden können]"
+      },
+      "telephone": {
+        "label": "Telefonnummer",
+        "hint": null
+      },
+      "email": {
+        "label": "E-Mail",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Andere Online-Kommunikationsmittel, sofern sie vom Reparaturbetrieb bereitgestellt werden, die es den Verbrauchern ermöglichen, schnell und effizient mit dem Reparaturbetrieb Kontakt aufzunehmen und mit ihm zu kommunizieren.",
+        "hint": null
+      },
+      "good": {
+        "label": "Zu reparierende Ware",
+        "hint": "[Bezeichnung der Ware]"
+      },
+      "defect": {
+        "label": "Art des Mangels",
+        "hint": "[Beschreibung des Mangels]"
+      },
+      "repairType": {
+        "label": "Art der vorgeschlagenen Reparatur",
+        "hint": "[Welche Maßnahmen werden ergriffen, um den Mangel zu beheben]"
+      },
+      "price": {
+        "label": "Preis für die Reparatur bzw., falls dieser nicht ermittelt werden kann, die anwendbare Berechnungsmethode und die Preisobergrenze für die Reparatur",
+        "hint": "[Gesamtbetrag bzw., falls dies nicht möglich ist, die Berechnungsmethode und die Obergrenze für die Reparaturdienstleistung in EUR/Landeswährung]"
+      },
+      "completionTime": {
+        "label": "Dauer der Reparatur",
+        "hint": "[Zeit, innerhalb welcher der Reparaturbetrieb sich verpflichtet, die Leistung zu erbringen, in Tagen]"
+      },
+      "replacementAvailable": {
+        "label": "Verfügbarkeit vorübergehender Ersatzwaren",
+        "hint": "[Vorübergehende Ersatzware bedeutet, dass der Verbraucher eine gleichwertige Ware zur Verwendung während der Dauer der Reparatur erhält; der Reparaturbetrieb gibt dies mit „Ja“ oder „Nein“ an]"
+      },
+      "replacementCost": {
+        "label": "Falls ja, führen Sie gegebenenfalls die entsprechenden Kosten an:",
+        "hint": "[EUR/Landeswährung]"
+      },
+      "handOverPlace": {
+        "label": "Orte der Übergabe der Waren",
+        "hint": "[Ort, an dem der Verbraucher die Waren zur Reparatur übergibt]"
+      },
+      "ancillaryServices": {
+        "label": "Verfügbarkeit von Nebenleistungen, falls zutreffend",
+        "hint": "[Geben Sie an, ob und in welchem Umfang Nebenleistungen wie Ausbau, Montage und Transport angeboten werden, bzw. „Keine“, wenn für die betreffende Reparatur keine Nebenleistung angeboten wird]"
+      },
+      "ancillaryCosts": {
+        "label": "Falls ja, führen Sie gegebenenfalls die entsprechenden Kosten an:",
+        "hint": "[EUR/Landeswährung, je angebotener Dienst]"
+      },
+      "validity": {
+        "label": "Gültigkeitsdauer des Europäischen Formulars für Reparaturinformationen",
+        "hint": "[Gültigkeitsdauer von mindestens 30\u00a0Tagen]"
+      },
+      "additionalInformation": {
+        "label": "Gegebenenfalls zusätzliche Informationen",
+        "hint": null
+      }
+    },
+    "note": "Die Hinweise in den eckigen Klammern enthalten Erläuterungen für den Reparaturbetrieb und sind durch die entsprechenden Angaben zu ersetzen.",
+    "words": {
+      "yes": "Ja",
+      "no": "Nein",
+      "none": "Keine"
+    },
+    "sha256": "d619bbfb16033317c74e23756f3d99b4a1a47f87d32d0c0deb0f2ae97f4ad792"
+  },
+  {
+    "language": "et",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "I\u00a0LISA",
+    "formTitle": "EUROOPA PARANDUSTEABE VORM",
+    "partOne": {
+      "label": "I\u00a0osa",
+      "heading": "Parandusteenust osutava parandaja nimi ja kontaktandmed"
+    },
+    "partTwo": {
+      "label": "II\u00a0osa",
+      "heading": "Teave parandusteenuse kohta"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Parandaja",
+        "hint": "[Nimi]"
+      },
+      "address": {
+        "label": "Aadress:",
+        "hint": "[Asukoha aadress tarbija jaoks]"
+      },
+      "telephone": {
+        "label": "Telefoninumber",
+        "hint": null
+      },
+      "email": {
+        "label": "E-posti aadress",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Kui parandaja seda pakub, muud veebipõhised sidevahendid, mis võimaldavad tarbijal parandajaga kiiresti ja tõhusalt ühendust võtta ja temaga suhelda",
+        "hint": null
+      },
+      "good": {
+        "label": "Parandatav kaup",
+        "hint": "[Kauba määratlemine]"
+      },
+      "defect": {
+        "label": "Puuduse laad",
+        "hint": "[Puuduse kirjeldus]"
+      },
+      "repairType": {
+        "label": "Soovitatud parandamise viis",
+        "hint": "[Milliseid meetmeid võetakse puuduse kõrvaldamiseks]"
+      },
+      "price": {
+        "label": "Parandamise hind, või kui seda ei ole võimalik arvutada, kohaldatav arvutusmeetod ja parandamise maksimumhind",
+        "hint": "[See tähendab kogusummat, või kui see ei ole võimalik, arvutusmeetodit ja parandusteenuse ülemmäära eurodes või omavääringus]"
+      },
+      "completionTime": {
+        "label": "Hinnanguline aeg parandamise lõpuleviimiseks",
+        "hint": "[Aeg (päevades), mille jooksul parandaja kohustub teenust osutama]"
+      },
+      "replacementAvailable": {
+        "label": "Ajutise asenduskauba kättesaadavus",
+        "hint": "[Ajutine asenduskaup tähendab, et tarbija saab parandamise ajal kasutamiseks samaväärse kauba, parandaja peab märkima „jah“ või „ei“]"
+      },
+      "replacementCost": {
+        "label": "Kui jah, märkige vajaduse korral asjaomased kulud:",
+        "hint": "[eurodes/omavääringus]"
+      },
+      "handOverPlace": {
+        "label": "Kauba üleandmise koht",
+        "hint": "[Koht, kus tarbija annab kauba parandamiseks üle]"
+      },
+      "ancillaryServices": {
+        "label": "Kohaldataval juhul abiteenuste kättesaadavus",
+        "hint": "[Märkige, kas ja millises ulatuses pakutakse abiteenuseid, nagu teisaldamine, paigaldamine ja transport, või „puuduvad“, kui asjaomase parandamise puhul ei pakuta abiteenust]"
+      },
+      "ancillaryCosts": {
+        "label": "Kui jah, märkige vajaduse korral asjaomased kulud:",
+        "hint": "[eurodes/omavääringus, iga pakutava teenuse kohta]"
+      },
+      "validity": {
+        "label": "Euroopa parandusteabe vormi kehtivusaeg",
+        "hint": "[Kehtivusaeg vähemalt 30 päeva]"
+      },
+      "additionalInformation": {
+        "label": "Kohaldataval juhul lisateave",
+        "hint": null
+      }
+    },
+    "note": "Nurksulgudes esitatud märkused on parandajale selgituseks ning need peab asendama vastava teabega.",
+    "words": {
+      "yes": "jah",
+      "no": "ei",
+      "none": "puuduvad"
+    },
+    "sha256": "342ae48748f20f2cd6ea89966c7df29b4fa339f2722edc8e915e24cb7cc803fd"
+  },
+  {
+    "language": "el",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ΠΑΡΑΡΤΗΜΑ I",
+    "formTitle": "ΕΥΡΩΠΑΪΚΟ ΕΝΤΥΠΟ ΠΛΗΡΟΦΟΡΙΩΝ ΕΠΙΣΚΕΥΗΣ",
+    "partOne": {
+      "label": "Μέρος\u00a0I",
+      "heading": "Ταυτότητα και στοιχεία επικοινωνίας του επισκευαστή που παρέχει την υπηρεσία επισκευής"
+    },
+    "partTwo": {
+      "label": "Μέρος\u00a0II",
+      "heading": "Πληροφορίες σχετικά με την υπηρεσία επισκευής"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Επισκευαστής",
+        "hint": "[Στοιχεία ταυτότητας]"
+      },
+      "address": {
+        "label": "Διεύθυνση",
+        "hint": "[Γεωγραφική διεύθυνση προς χρήση από τον καταναλωτή]"
+      },
+      "telephone": {
+        "label": "Αριθμός τηλεφώνου",
+        "hint": null
+      },
+      "email": {
+        "label": "Διεύθυνση ηλ. ταχυδρομείου",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Εάν παρέχονται από τον επισκευαστή, άλλα μέσα ηλεκτρονικής επικοινωνίας τα οποία επιτρέπουν στον καταναλωτή να έρχεται σε επαφή και να επικοινωνεί με τον επισκευαστή γρήγορα και αποτελεσματικά",
+        "hint": null
+      },
+      "good": {
+        "label": "Αγαθό προς επισκευή",
+        "hint": "[Ταυτοποίηση του αγαθού]"
+      },
+      "defect": {
+        "label": "Φύση του ελαττώματος",
+        "hint": "[Περιγραφή του ελαττώματος]"
+      },
+      "repairType": {
+        "label": "Προτεινόμενο είδος επισκευής",
+        "hint": "[Τι είδους μέτρα θα ληφθούν για την επισκευή του ελαττώματος]"
+      },
+      "price": {
+        "label": "Τιμή επισκευής ή, εάν δεν μπορεί να υπολογιστεί, εφαρμοστέα μέθοδος υπολογισμού και μέγιστη τιμή επισκευής",
+        "hint": "[Αυτό σημαίνει το συνολικό ποσό ή, εάν αυτό δεν είναι δυνατό, η\u00a0μέθοδος υπολογισμού και το ανώτατο όριο για την υπηρεσία επισκευής, σε EUR/εθνικό νόμισμα]"
+      },
+      "completionTime": {
+        "label": "Χρόνος για την ολοκλήρωση της επισκευής",
+        "hint": "[Προθεσμία εντός της οποίας ο\u00a0επισκευαστής αναλαμβάνει να εκτελέσει την υπηρεσία, σε ημέρες]"
+      },
+      "replacementAvailable": {
+        "label": "Διαθεσιμότητα αγαθών για προσωρινή αντικατάσταση",
+        "hint": "[Αγαθό για προσωρινή αντικατάσταση σημαίνει ότι ο\u00a0καταναλωτής θα λάβει ισοδύναμο αγαθό για χρήση κατά τη διάρκεια της επισκευής\u00a0— ο\u00a0επισκευαστής πρέπει να δηλώσει «Ναι» ή «Όχι»]"
+      },
+      "replacementCost": {
+        "label": "Εάν ναι, αναφέρατε το αντίστοιχο κόστος, εάν υπάρχει:",
+        "hint": "[Σε EUR/εθνικό νόμισμα]"
+      },
+      "handOverPlace": {
+        "label": "Τόπος παράδοσης των αγαθών",
+        "hint": "[Ο τόπος όπου ο\u00a0καταναλωτής παραδίδει τα αγαθά προς επισκευή]"
+      },
+      "ancillaryServices": {
+        "label": "Κατά περίπτωση, διαθεσιμότητα βοηθητικών υπηρεσιών",
+        "hint": "[Αναφέρετε αν και σε ποιο βαθμό προσφέρονται βοηθητικές υπηρεσίες, όπως απεγκατάσταση, εγκατάσταση και μεταφορά, ή «Καμία» εάν δεν προσφέρεται καμία βοηθητική υπηρεσία για τη συγκεκριμένη επισκευή]"
+      },
+      "ancillaryCosts": {
+        "label": "Εάν ναι, αναφέρετε το αντίστοιχο κόστος, εάν υπάρχει:",
+        "hint": "[Σε EUR/εθνικό νόμισμα, ανά προσφερόμενη υπηρεσία]"
+      },
+      "validity": {
+        "label": "Περίοδος ισχύος του ευρωπαϊκού εντύπου πληροφοριών επισκευής",
+        "hint": "[Περίοδος ισχύος τουλάχιστον 30 ημερών]"
+      },
+      "additionalInformation": {
+        "label": "Κατά περίπτωση, συμπληρωματικές πληροφορίες",
+        "hint": null
+      }
+    },
+    "note": "Οι μεταξύ αγκυλών ενδείξεις παρέχουν εξηγήσεις στον επισκευαστή και πρέπει να αντικαθίστανται από τις αντίστοιχες πληροφορίες.",
+    "words": {
+      "yes": "Ναι",
+      "no": "Όχι",
+      "none": "Καμία"
+    },
+    "sha256": "a3c89a7bf337c1c4c358d523e3fd2395676325fbde8789e34a3a9f5d5038e980"
+  },
+  {
+    "language": "en",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ANNEX\u00a0I",
+    "formTitle": "EUROPEAN REPAIR INFORMATION FORM",
+    "partOne": {
+      "label": "Part\u00a0I",
+      "heading": "Identity and contact details of the repairer providing the repair service"
+    },
+    "partTwo": {
+      "label": "Part\u00a0II",
+      "heading": "Information on the repair service"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Repairer",
+        "hint": "[Identity]"
+      },
+      "address": {
+        "label": "Address",
+        "hint": "[Geographical address to be used by the consumer]"
+      },
+      "telephone": {
+        "label": "Telephone number",
+        "hint": null
+      },
+      "email": {
+        "label": "Email address",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "If provided by the repairer, other means of online communication, which enable the consumer to contact, and communicate with, the repairer quickly and efficiently",
+        "hint": null
+      },
+      "good": {
+        "label": "Good to be repaired",
+        "hint": "[Identification of the good]"
+      },
+      "defect": {
+        "label": "Nature of the defect",
+        "hint": "[Description of the defect]"
+      },
+      "repairType": {
+        "label": "Type of repair suggested",
+        "hint": "[What kind of measures will be taken to repair the defect]"
+      },
+      "price": {
+        "label": "Price for repair or, if it cannot be calculated, the applicable calculation method and maximum price of repair",
+        "hint": "[This means the total amount or, if not possible, the calculation method and the ceiling for the repair service, in EUR/national currency]"
+      },
+      "completionTime": {
+        "label": "Time to complete repair",
+        "hint": "[Time by which the repairer undertakes to perform the service in days]"
+      },
+      "replacementAvailable": {
+        "label": "Availability of temporary replacement goods",
+        "hint": "[A temporary replacement good means that the consumer will receive an equivalent good for use during the time of repair, the repairer has to indicate ‘Yes’ or ‘No’]"
+      },
+      "replacementCost": {
+        "label": "If yes, indicate the corresponding costs, if any:",
+        "hint": "[In EUR/national currency]"
+      },
+      "handOverPlace": {
+        "label": "Place to hand over the goods",
+        "hint": "[The place where the consumer hands over the goods for repair]"
+      },
+      "ancillaryServices": {
+        "label": "If applicable, the availability of ancillary services",
+        "hint": "[Indicate if and to which extent ancillary services such as removal, installation and transportation are offered, or ‘None’ if no ancillary service is offered for the repair concerned]"
+      },
+      "ancillaryCosts": {
+        "label": "If yes, indicate the corresponding costs, if any:",
+        "hint": "[In EUR/national currency, per service offered]"
+      },
+      "validity": {
+        "label": "The period of validity of the European Repair Information Form",
+        "hint": "[Period of validity of at least 30 days]"
+      },
+      "additionalInformation": {
+        "label": "If applicable, additional information",
+        "hint": null
+      }
+    },
+    "note": "Indications between square brackets provide explanations for the repairer and must be replaced with the corresponding information.",
+    "words": {
+      "yes": "Yes",
+      "no": "No",
+      "none": "None"
+    },
+    "sha256": "e072bea11ed1a655ea8630b4a7a9dae8d4051b7f2202f19a7dd15b0e50485279"
+  },
+  {
+    "language": "fr",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ANNEXE\u00a0I",
+    "formTitle": "FORMULAIRE EUROPÉEN D’INFORMATION SUR LA RÉPARATION",
+    "partOne": {
+      "label": "Partie\u00a0I",
+      "heading": "Identité et coordonnées du réparateur fournissant le service de réparation"
+    },
+    "partTwo": {
+      "label": "Partie\u00a0II",
+      "heading": "Informations sur le service de réparation"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Réparateur",
+        "hint": "[Identité]"
+      },
+      "address": {
+        "label": "Adresse",
+        "hint": "[Adresse géographique à\u00a0utiliser par le consommateur]"
+      },
+      "telephone": {
+        "label": "Numéro de téléphone",
+        "hint": null
+      },
+      "email": {
+        "label": "Adresse électronique",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Si de tels moyens sont fournis par le réparateur, autres moyens de communication en ligne permettant au consommateur de prendre contact et de communiquer de manière rapide et efficace avec le réparateur",
+        "hint": null
+      },
+      "good": {
+        "label": "Bien à\u00a0réparer",
+        "hint": "[Identification du bien]"
+      },
+      "defect": {
+        "label": "Nature du défaut",
+        "hint": "[Description du défaut]"
+      },
+      "repairType": {
+        "label": "Type de réparation proposé",
+        "hint": "[Types de mesures qui seront prises pour réparer le défaut]"
+      },
+      "price": {
+        "label": "Prix de la réparation ou, s’il n’est pas possible de le calculer, méthode de calcul applicable et prix maximal de la réparation",
+        "hint": "[Montant total ou, s’il n’est pas possible de l’indiquer, méthode de calcul et plafond de prix du service de réparation, en EUR/monnaie nationale]"
+      },
+      "completionTime": {
+        "label": "Délai de réparation",
+        "hint": "[Délai auquel le réparateur s’engage pour exécuter la prestation en jours]"
+      },
+      "replacementAvailable": {
+        "label": "Disponibilité de biens de remplacement temporaire",
+        "hint": "[La disponibilité d’un bien de remplacement temporaire signifie que le consommateur recevra un bien équivalent destiné à\u00a0être utilisé pendant la durée de la réparation; le réparateur doit indiquer «Oui» ou «Non»]"
+      },
+      "replacementCost": {
+        "label": "Dans l’affirmative, veuillez indiquer les coûts correspondants, le cas échéant:",
+        "hint": "[En EUR/monnaie nationale]"
+      },
+      "handOverPlace": {
+        "label": "Lieu de remise du bien",
+        "hint": "[Le lieu où le consommateur peut remettre le bien en vue de sa réparation]"
+      },
+      "ancillaryServices": {
+        "label": "Le cas échéant, disponibilité de services accessoires",
+        "hint": "[Indiquer si et dans quelle mesure des services accessoires, d’enlèvement, d’installation et de transport par exemple, sont proposés, ou «Néant» si aucun service accessoire n’est proposé pour la réparation concernée]"
+      },
+      "ancillaryCosts": {
+        "label": "Dans l’affirmative, veuillez indiquer les coûts correspondants, le cas échéant:",
+        "hint": "[En EUR/monnaie nationale, pour chaque service proposé]"
+      },
+      "validity": {
+        "label": "Durée de validité du formulaire européen d’information sur la réparation",
+        "hint": "[Durée de validité d’au moins 30 jours]"
+      },
+      "additionalInformation": {
+        "label": "Informations supplémentaires, le cas échéant",
+        "hint": null
+      }
+    },
+    "note": "Les indications qui figurent entre crochets sont des explications destinées au réparateur et doivent être remplacées par les informations correspondantes.",
+    "words": {
+      "yes": "Oui",
+      "no": "Non",
+      "none": "Néant"
+    },
+    "sha256": "cfbe23a305e7daa33141be605f05f707ea27e7bbdf2b8508f712299764548ffd"
+  },
+  {
+    "language": "ga",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "IARSCRÍBHINN\u00a0I",
+    "formTitle": "FOIRM EORPACH UM FHAISNÉIS FAOIN DEISIÚCHÁN",
+    "partOne": {
+      "label": "Cuid\u00a0I",
+      "heading": "Céannacht agus sonraí teagmhála an deisitheora a\u00a0sholáthraíonn an tseirbhís deisiúcháin"
+    },
+    "partTwo": {
+      "label": "Cuid\u00a0II",
+      "heading": "Faisnéis faoin tseirbhís deisiúcháin"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Deisitheoir",
+        "hint": "[Céannacht]"
+      },
+      "address": {
+        "label": "Seoladh",
+        "hint": "[Seoladh geografach atá le húsáid ag an tomhaltóir]"
+      },
+      "telephone": {
+        "label": "Uimhir theileafóin",
+        "hint": null
+      },
+      "email": {
+        "label": "Seoladh ríomhphoist",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Má sholáthraíonn an deisitheoir iad, modhanna eile cumarsáide ar líne, lenar féidir leis an tomhaltóir dul i\u00a0dteagmháil leis an deisitheoir agus cumarsáid a\u00a0dhéanamh leis go tapa agus go héifeachtúil",
+        "hint": null
+      },
+      "good": {
+        "label": "An t-earra atá le deisiú",
+        "hint": "[An t-earra a\u00a0shainaithint]"
+      },
+      "defect": {
+        "label": "Cineál an lochta",
+        "hint": "[Tuairisc ar an locht]"
+      },
+      "repairType": {
+        "label": "An cineál deisiúcháin atá molta",
+        "hint": "[Cén cineál beart a\u00a0dhéanfar chun an locht a\u00a0dheisiú]"
+      },
+      "price": {
+        "label": "Praghas le haghaidh an deisiúcháin nó, mura féidir é\u00a0a ríomh, an modh ríofa is infheidhme agus an t-uasphraghas le haghaidh an deisiúcháin",
+        "hint": "[Ciallaíonn sé sin an méid iomlán nó, mura féidir é\u00a0sin a\u00a0ríomh, an modh ríofa agus an uasteorainn le haghaidh na seirbhíse deisiúcháin, in EUR nó san airgeadra náisiúnta]"
+      },
+      "completionTime": {
+        "label": "An t-am chun an deisiúchán a\u00a0chur i\u00a0gcrích",
+        "hint": "[An t-am i\u00a0laethanta faoina ngeallann an deisitheoir an tseirbhís a\u00a0dhéanamh]"
+      },
+      "replacementAvailable": {
+        "label": "Infhaighteacht earraí athsholáthair sealadacha",
+        "hint": "[Ciallaíonn earra athsholáthair sealadach go bhfaighidh an tomhaltóir earra coibhéiseach lena úsáid le linn thréimhse an deisithe, ní mór don deisitheoir ‘Tá’ nó ‘Níl’ a\u00a0chur in iúl]"
+      },
+      "replacementCost": {
+        "label": "Má tá, sonraigh na costais chomhfhreagracha, más ann dóibh:",
+        "hint": "[In EUR nó san airgeadra náisiúnta]"
+      },
+      "handOverPlace": {
+        "label": "Áit chun na hearraí a\u00a0thabhairt ar láimh",
+        "hint": "[An áit a\u00a0dtugann an tomhaltóir na hearraí ar láimh chun iad a\u00a0dheisiú]"
+      },
+      "ancillaryServices": {
+        "label": "Más infheidhme, infhaighteacht seirbhísí coimhdeacha",
+        "hint": "[Tabhair le fios má tháirgtear, agus a\u00a0mhéid a\u00a0thairgtear, seirbhísí coimhdeacha mar shampla baint, suiteáil agus iompar, nó roghnaigh ‘Níl aon seirbhís choimhdeach ann’ mura dtairgtear aon seirbhís choimhdeach le haghaidh an deisiúcháin lena mbaineann]"
+      },
+      "ancillaryCosts": {
+        "label": "Má thairgtear, sonraigh na costais chomhfhreagracha, más ann dóibh:",
+        "hint": "[In EUR nó san airgeadra náisiúnta, in aghaidh na seirbhíse a\u00a0thairgtear]"
+      },
+      "validity": {
+        "label": "Tréimhse bhailíochta na Foirme Eorpaí um Fhaisnéis faoin Deisiúchán",
+        "hint": "[Tréimhse bhailíochta 30 lá ar a\u00a0laghad]"
+      },
+      "additionalInformation": {
+        "label": "Más infheidhme, faisnéis bhreise",
+        "hint": null
+      }
+    },
+    "note": "Tugtar mínithe don deisitheoir leis na léirithe atá idir lúibíní cearnacha agus ní mór an fhaisnéis chomhfhreagrach a\u00a0chur ina n-ionad.",
+    "words": {
+      "yes": "Tá",
+      "no": "Níl",
+      "none": "Níl aon seirbhís choimhdeach ann"
+    },
+    "sha256": "e37532f02dfa1fbd2d45bfd5b041c330cb0e453b32ad7698ed5a20b8b92d010d"
+  },
+  {
+    "language": "hr",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "PRILOG I.",
+    "formTitle": "EUROPSKI OBRAZAC ZA INFORMACIJE O\u00a0POPRAVKU",
+    "partOne": {
+      "label": "Dio I.",
+      "heading": "Identitet i\u00a0podaci za kontakt servisera koji pruža uslugu popravka"
+    },
+    "partTwo": {
+      "label": "Dio II.",
+      "heading": "Informacije o\u00a0usluzi popravka"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Serviser",
+        "hint": "[identitet]"
+      },
+      "address": {
+        "label": "Adresa",
+        "hint": "[geografska adresa za potrebe potrošača]"
+      },
+      "telephone": {
+        "label": "Broj telefona",
+        "hint": null
+      },
+      "email": {
+        "label": "Adresa elektroničke pošte",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Ako ih je serviser dostavio, druga sredstva internetske komunikacije koja potrošaču omogućuju da brzo i\u00a0djelotvorno stupi u\u00a0kontakt i\u00a0komunicira sa serviserom",
+        "hint": null
+      },
+      "good": {
+        "label": "Roba koju treba popraviti",
+        "hint": "[naziv robe]"
+      },
+      "defect": {
+        "label": "Priroda nedostatka",
+        "hint": "[opis nedostatka]"
+      },
+      "repairType": {
+        "label": "Vrsta predloženog popravka",
+        "hint": "[koje će se mjere poduzeti radi popravka nedostatka]"
+      },
+      "price": {
+        "label": "Cijena popravka ili, ako se cijenu ne može unaprijed izračunati, primjenjiva metoda izračuna i\u00a0najveća cijena popravka",
+        "hint": "[to znači ukupan iznos ili, ako to nije moguće izračunati, metoda izračuna i\u00a0gornja granica iznosa za uslugu popravka izražena u\u00a0EUR/nacionalnoj valuti]"
+      },
+      "completionTime": {
+        "label": "Vrijeme potrebno za popravak",
+        "hint": "[Rok, izražen u\u00a0danima, do kojeg se serviser obvezuje da će izvršiti uslugu]"
+      },
+      "replacementAvailable": {
+        "label": "Dostupnost privremene zamjenske robe",
+        "hint": "[privremena zamjenska roba znači da će potrošač dobiti jednakovrijednu robu na korištenje tijekom razdoblja popravka; serviser mora navesti „Da” ili „Ne”]"
+      },
+      "replacementCost": {
+        "label": "Ako je navedeno „Da”, potrebno je navesti eventualne troškove:",
+        "hint": "[u EUR/nacionalnoj valuti]"
+      },
+      "handOverPlace": {
+        "label": "Mjesto za predaju robe",
+        "hint": "[mjesto na kojem potrošač predaje robu na popravak]"
+      },
+      "ancillaryServices": {
+        "label": "Ako je primjenjivo, dostupnost pomoćnih usluga",
+        "hint": "[navesti nude li se, i\u00a0u kojoj mjeri, pomoćne usluge kao što su uklanjanje, ugradnja i\u00a0prijevoz ili „Ne” ako za dotični popravak nisu dostupne pomoćne usluge]"
+      },
+      "ancillaryCosts": {
+        "label": "Ako je navedeno „Da”, potrebno je navesti eventualne troškove:",
+        "hint": "[u EUR/nacionalnoj valuti po ponuđenoj usluzi]"
+      },
+      "validity": {
+        "label": "Razdoblje valjanosti Europskog obrasca za informacije o\u00a0popravku",
+        "hint": "[razdoblje valjanosti od najmanje 30 dana]"
+      },
+      "additionalInformation": {
+        "label": "Ako je primjenjivo, dodatne informacije",
+        "hint": null
+      }
+    },
+    "note": "Opisi u\u00a0uglatim zagradama služe kao objašnjenja za servisere i\u00a0moraju se zamijeniti odgovarajućim informacijama.",
+    "words": {
+      "yes": "Da",
+      "no": "Ne",
+      "none": "Ne"
+    },
+    "sha256": "31ec408bdd8e9f008d2743221016f643b099ed58438be87c780a0ecb2654756b"
+  },
+  {
+    "language": "it",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ALLEGATO\u00a0I",
+    "formTitle": "MODULO EUROPEO DI INFORMAZIONI SULLA RIPARAZIONE",
+    "partOne": {
+      "label": "Parte\u00a0I",
+      "heading": "Identità e\u00a0dati di contatto del riparatore che presta il servizio di riparazione"
+    },
+    "partTwo": {
+      "label": "Parte\u00a0II",
+      "heading": "Informazioni sul servizio di riparazione"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Riparatore",
+        "hint": "[Identità]"
+      },
+      "address": {
+        "label": "Indirizzo",
+        "hint": "[Indirizzo geografico che il consumatore deve usare]"
+      },
+      "telephone": {
+        "label": "Numero di telefono",
+        "hint": null
+      },
+      "email": {
+        "label": "Indirizzo di posta elettronica",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Se forniti dal riparatore, altri mezzi di comunicazione online che consentono al consumatore di contattare il riparatore e\u00a0comunicare con lui in modo rapido ed efficiente",
+        "hint": null
+      },
+      "good": {
+        "label": "Bene da riparare",
+        "hint": "[Identificazione del bene]"
+      },
+      "defect": {
+        "label": "Natura del difetto",
+        "hint": "[Descrizione del difetto]"
+      },
+      "repairType": {
+        "label": "Tipo di riparazione proposta",
+        "hint": "[Tipo di misure che saranno prese per riparare il difetto]"
+      },
+      "price": {
+        "label": "Prezzo della riparazione o, se non può essere calcolato, metodo di calcolo applicabile e\u00a0prezzo massimo della riparazione",
+        "hint": "[L’importo totale o, se non è possibile determinarlo, il metodo di calcolo e\u00a0il prezzo massimo per il servizio di riparazione, in EUR/valuta nazionale]"
+      },
+      "completionTime": {
+        "label": "Tempo previsto per completare la riparazione",
+        "hint": "[Termine in giorni entro il quale il riparatore si impegna a\u00a0eseguire il servizio]"
+      },
+      "replacementAvailable": {
+        "label": "Disponibilità di beni sostitutivi temporanei",
+        "hint": "[Per «bene sostitutivo temporaneo» si intende un bene equivalente che il consumatore riceve e\u00a0può usare durante il periodo di riparazione; il riparatore deve indicare «Sì» o\u00a0«No»]"
+      },
+      "replacementCost": {
+        "label": "In caso affermativo, indicare gli eventuali costi corrispondenti:",
+        "hint": "[in EUR/valuta nazionale]"
+      },
+      "handOverPlace": {
+        "label": "Luogo di consegna del bene",
+        "hint": "[Il luogo in cui il consumatore consegna il bene per la riparazione]"
+      },
+      "ancillaryServices": {
+        "label": "Se applicabile, la disponibilità di servizi accessori",
+        "hint": "[Indicare se e\u00a0in quale misura sono offerti servizi accessori, come la rimozione, l’installazione e\u00a0il trasporto, o\u00a0«Nessuno» se non sono offerti servizi accessori per la riparazione interessata]"
+      },
+      "ancillaryCosts": {
+        "label": "In caso affermativo, indicare gli eventuali costi corrispondenti:",
+        "hint": "[In EUR/valuta nazionale, per servizio offerto]"
+      },
+      "validity": {
+        "label": "Periodo di validità del modulo europeo di informazioni sulla riparazione",
+        "hint": "[Periodo di validità di almeno 30 giorni]"
+      },
+      "additionalInformation": {
+        "label": "Se del caso, informazioni supplementari",
+        "hint": null
+      }
+    },
+    "note": "Le indicazioni fra parentesi quadre forniscono chiarimenti al riparatore e\u00a0devono essere sostituite con le informazioni corrispondenti.",
+    "words": {
+      "yes": "Sì",
+      "no": "No",
+      "none": "Nessuno"
+    },
+    "sha256": "cb720663e1776b2b24fd6ba5ac79d131037641e6cca53b0be73ebbc247e3e4a5"
+  },
+  {
+    "language": "lv",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/LV/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "I\u00a0PIELIKUMS",
+    "formTitle": "EIROPAS REMONTA INFORMĀCIJAS VEIDLAPA",
+    "partOne": {
+      "label": "I\u00a0daļa",
+      "heading": "Remontētāja, kas sniedz remonta pakalpojumus, identitāte un kontaktinformācija"
+    },
+    "partTwo": {
+      "label": "II\u00a0daļa",
+      "heading": "Informācija par remonta pakalpojumiem"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Remontētājs",
+        "hint": "[Identitāte]"
+      },
+      "address": {
+        "label": "Adrese",
+        "hint": "[Ģeogrāfiskā adrese kontaktiem ar patērētāju]"
+      },
+      "telephone": {
+        "label": "Tālruņa numurs",
+        "hint": null
+      },
+      "email": {
+        "label": "E-pasta adrese",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Citi tiešsaistes saziņas līdzekļi (ja remontētājs tādus norādījis), kas ļauj patērētājam ātri un efektīvi sasniegt remontētāju un sazināties ar to.",
+        "hint": null
+      },
+      "good": {
+        "label": "Remontējamā prece",
+        "hint": "[Preces identifikācija]"
+      },
+      "defect": {
+        "label": "Defekta veids",
+        "hint": "[Defekta apraksts]"
+      },
+      "repairType": {
+        "label": "Ierosinātais remonta veids",
+        "hint": "[Kādi pasākumi tiks veikti, lai defektu novērstu]"
+      },
+      "price": {
+        "label": "Remonta cena vai, ja to nevar aprēķināt, piemērojamā aprēķina metode un maksimālā remonta cena",
+        "hint": "[Proti, remonta pakalpojuma kopējās izmaksas vai, ja tās nevar aprēķināt, aprēķina metode un maksimālā summa EUR/valsts valūtā]"
+      },
+      "completionTime": {
+        "label": "Remonta pabeigšanas laiks",
+        "hint": "[Laiks dienās, līdz kuram remontētājs apņemas pakalpojumu izpildīt]"
+      },
+      "replacementAvailable": {
+        "label": "Pagaidu aizstājējpreču pieejamība",
+        "hint": "[Pagaidu aizstājējprece nozīmē, ka patērētājs saņems līdzvērtīgu preci lietošanai remonta laikā, remontētājam jānorāda “jā” vai “nē”]"
+      },
+      "replacementCost": {
+        "label": "Ja atbilde ir “jā”, norādiet attiecīgās izmaksas, ja tādas ir:",
+        "hint": "[EUR/valsts valūtā]"
+      },
+      "handOverPlace": {
+        "label": "Preču nodošanas vieta",
+        "hint": "[Vieta, kur patērētājs nodod preces remontam]"
+      },
+      "ancillaryServices": {
+        "label": "Attiecīgā gadījumā\u00a0– papildpakalpojumu pieejamība",
+        "hint": "[Norādiet, vai un ciktāl tiek piedāvāti papildpakalpojumi, piemēram, demontāža, uzstādīšana un transportēšana, vai “nav”, ja attiecīgajam remontam netiek piedāvāts papildpakalpojums]"
+      },
+      "ancillaryCosts": {
+        "label": "Ja atbilde ir “jā”, norādiet attiecīgās izmaksas, ja tādas ir:",
+        "hint": "[EUR/valsts valūtā par katru piedāvāto pakalpojumu]"
+      },
+      "validity": {
+        "label": "Eiropas remonta informācijas veidlapas derīguma termiņš",
+        "hint": "[Derīguma termiņš\u00a0– vismaz 30\u00a0dienas]"
+      },
+      "additionalInformation": {
+        "label": "Attiecīgā gadījumā\u00a0– papildu formācija",
+        "hint": null
+      }
+    },
+    "note": "Norādes kvadrātiekavās ir paskaidrojums remontētājam, un tās jāaizstāj ar attiecīgo informāciju.",
+    "words": {
+      "yes": "jā",
+      "no": "nē",
+      "none": "nav"
+    },
+    "sha256": "c05611a351d717bc7771edd45d93b72daab615ab5e39d192a057875fda1eb4cb"
+  },
+  {
+    "language": "lt",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/LT/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "I\u00a0PRIEDAS",
+    "formTitle": "EUROPOS TAISYMO INFORMACIJOS FORMA",
+    "partOne": {
+      "label": "I\u00a0dalis",
+      "heading": "Taisymo paslaugą teikiančio taisytojo tapatybė ir kontaktiniai duomenys"
+    },
+    "partTwo": {
+      "label": "II\u00a0dalis",
+      "heading": "Informacija apie taisymo paslaugą"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Taisytojas",
+        "hint": "[Vardas ir pavardė/pavadinimas]"
+      },
+      "address": {
+        "label": "Adresas",
+        "hint": "[Geografinis adresas, skirtas vartotojui]"
+      },
+      "telephone": {
+        "label": "Telefono numeris",
+        "hint": null
+      },
+      "email": {
+        "label": "E.\u00a0pašto adresas",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Kitos internetinės komunikacijos priemonės, kuriomis vartotojas gali greitai ir veiksmingai susisiekti su taisytoju ir su juo bendrauti (jeigu taisytojas jas yra nurodęs)",
+        "hint": null
+      },
+      "good": {
+        "label": "Taisytina prekė",
+        "hint": "[Prekės identifikavimas]"
+      },
+      "defect": {
+        "label": "Gedimo pobūdis",
+        "hint": "[Gedimo aprašymas]"
+      },
+      "repairType": {
+        "label": "Siūlomas taisymas",
+        "hint": "[Priemonės, kurių bus imtasi gedimui pašalinti]"
+      },
+      "price": {
+        "label": "Taisymo kaina, o\u00a0jeigu jos apskaičiuoti negalima, taikytinas apskaičiavimo metodas ir didžiausia taisymo kaina",
+        "hint": "[Bendra taisymo paslaugos suma arba, jei jos nurodyti neįmanoma, apskaičiavimo metodas ir viršutinė riba, eurais/nacionaline valiuta]"
+      },
+      "completionTime": {
+        "label": "Taisymo užbaigimo laikas",
+        "hint": "[Laikas, iki kurio taisytojas įsipareigoja atlikti paslaugą, dienomis]"
+      },
+      "replacementAvailable": {
+        "label": "Galimybė gauti laikiną pakaitinę prekę",
+        "hint": "[Laikina pakaitinė prekė reiškia, kad taisymo laikotarpiu vartotojui bus pateikta lygiavertė prekė; taisytojas turi nurodyti „Taip“ arba „Ne“]"
+      },
+      "replacementCost": {
+        "label": "Jei taip, nurodyti atitinkamas išlaidas, jei jų yra:",
+        "hint": "[eurais/nacionaline valiuta]"
+      },
+      "handOverPlace": {
+        "label": "Prekės perdavimo vieta",
+        "hint": "[Vieta, kurioje vartotojas perduoda prekę taisymui]"
+      },
+      "ancillaryServices": {
+        "label": "Jei taikytina, teikiamos papildomos paslaugos",
+        "hint": "[Nurodyti, ar yra siūloma papildomų paslaugų, kaip antai išvežimas, įrengimas ir transportavimas, ir kokiu mastu jos teikiamos, arba nurodyti „nėra“, jei atliekant atitinkamą taisymą nesiūloma jokių papildomų paslaugų]"
+      },
+      "ancillaryCosts": {
+        "label": "Jei taip, nurodyti atitinkamas išlaidas, jei jų yra:",
+        "hint": "[eurais/nacionaline valiuta, už kiekvieną siūlomą paslaugą]"
+      },
+      "validity": {
+        "label": "Europos taisymo informacijos formos galiojimo laikotarpis",
+        "hint": "[Galiojimo laikotarpis, ne trumpesnis kaip 30 dienų]"
+      },
+      "additionalInformation": {
+        "label": "Jei taikytina, papildoma informacija.",
+        "hint": null
+      }
+    },
+    "note": "Laužtiniuose skliaustuose taisytojui paaiškinama, kokią informaciją reikia pateikti, todėl ten turi būti įrašyta atitinkama informacija.",
+    "words": {
+      "yes": "Taip",
+      "no": "Ne",
+      "none": "nėra"
+    },
+    "sha256": "7f2f977b04c7426c63fe1001b5a6067563230f523c58ec679357b53fa40c95a7"
+  },
+  {
+    "language": "hu",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "I.\u00a0MELLÉKLET",
+    "formTitle": "EURÓPAI JAVÍTÁSI ADATLAP",
+    "partOne": {
+      "label": "I.\u00a0rész",
+      "heading": "A javítási szolgáltatást nyújtó javító személyazonossága és elérhetőségei"
+    },
+    "partTwo": {
+      "label": "II.\u00a0rész",
+      "heading": "A javítási szolgáltatásra vonatkozó információk"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Javító",
+        "hint": "[Név]"
+      },
+      "address": {
+        "label": "Cím",
+        "hint": "[A fogyasztó által használandó postai cím]"
+      },
+      "telephone": {
+        "label": "Telefonszám",
+        "hint": null
+      },
+      "email": {
+        "label": "E-mail-cím",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Adott esetben a\u00a0javító által biztosított egyéb online kommunikációs eszköz, amelyen keresztül a\u00a0fogyasztó gyorsan és hatékonyan kapcsolatba léphet és kommunikálhat a\u00a0javítóval",
+        "hint": null
+      },
+      "good": {
+        "label": "A javítandó áru",
+        "hint": "[Az áru megnevezése]"
+      },
+      "defect": {
+        "label": "A hiba jellege",
+        "hint": "[A hiba leírása]"
+      },
+      "repairType": {
+        "label": "A javasolt javítás típusa",
+        "hint": "[Milyen intézkedéseket fognak hozni a\u00a0hiba kijavítására]"
+      },
+      "price": {
+        "label": "A javítás ára, vagy ha az nem számítható ki, az alkalmazott számítási módszer és a\u00a0javítás maximális ára",
+        "hint": "[Ez a\u00a0javítási szolgáltatás árának teljes összegét, vagy ha az nem adható meg, a\u00a0kiszámításának módját és felső összeghatárát jelenti EUR-ban/nemzeti pénznemben]"
+      },
+      "completionTime": {
+        "label": "A javítás elvégzésének időtartama",
+        "hint": "[Az az időtartam, napokban megadva, amelyen belül a\u00a0javító vállalja a\u00a0szolgáltatás teljesítését]"
+      },
+      "replacementAvailable": {
+        "label": "Ideiglenes csereáruk rendelkezésre állása",
+        "hint": "[Az ideiglenes csereáru azt jelenti, hogy a\u00a0fogyasztó a\u00a0javítás idejére használat céljából egyenértékű árut fog kapni, a\u00a0javítónak jelölnie kell, hogy „Igen” vagy „Nem”]"
+      },
+      "replacementCost": {
+        "label": "Igen válasz esetén az esetleges felmerülő költségek megadása:",
+        "hint": "[EUR-ban/nemzeti pénznemben]"
+      },
+      "handOverPlace": {
+        "label": "Az áru átadásának helye",
+        "hint": "[Az a\u00a0hely, ahol a\u00a0fogyasztó átadja az árut javításra]"
+      },
+      "ancillaryServices": {
+        "label": "Adott esetben kapcsolódó szolgáltatások igénybevételének lehetősége",
+        "hint": "[Igénybe vehető kapcsolódó szolgáltatások\u00a0– például eltávolítás, üzembe helyezés és szállítás\u00a0–, és ezek terjedelme, illetve „Nincs” válasz, ha az érintett javításhoz nem nyújtanak kapcsolódó szolgáltatást.]"
+      },
+      "ancillaryCosts": {
+        "label": "Igen válasz esetén az esetleges felmerülő költségek megadása:",
+        "hint": "[EUR-ban/nemzeti pénznemben, kínált szolgáltatásonként]"
+      },
+      "validity": {
+        "label": "Az európai javítási adatlap érvényességi ideje",
+        "hint": "[Az érvényességi idő legalább 30 nap]"
+      },
+      "additionalInformation": {
+        "label": "Adott esetben kiegészítő információk",
+        "hint": null
+      }
+    },
+    "note": "A szögletes zárójelben levő tájékoztatás magyarázatként szolgál a\u00a0javító számára, és a\u00a0megfelelő információkat kell beírni a\u00a0helyére.",
+    "words": {
+      "yes": "Igen",
+      "no": "Nem",
+      "none": "Nincs"
+    },
+    "sha256": "b3caca1839e9a53640d6deccef9d8327424a1953354cd718401738ed259d748d"
+  },
+  {
+    "language": "mt",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ANNESS\u00a0I",
+    "formTitle": "FORMOLA EWROPEA TA’ INFORMAZZJONI DWAR IT-TISWIJA",
+    "partOne": {
+      "label": "Parti\u00a0I",
+      "heading": "L-identità u\u00a0d-dettalji ta’ kuntatt tas-sewwej li jipprovdi s-servizz ta’ tiswija"
+    },
+    "partTwo": {
+      "label": "Parti\u00a0II",
+      "heading": "Informazzjoni dwar is-servizz ta’ tiswija"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Sewwej",
+        "hint": "[Identità]"
+      },
+      "address": {
+        "label": "Indirizz",
+        "hint": "[Indirizz ġeografiku li għandu jintuża mill-konsumatur]"
+      },
+      "telephone": {
+        "label": "Numru tat-telefown",
+        "hint": null
+      },
+      "email": {
+        "label": "Indirizz tal-posta elettronika",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Mezzi oħra ta’ komunikazzjoni online, jekk jingħataw mis-sewwej, li jippermettu lill-konsumatur jikkuntattja u\u00a0jikkomunika mas-sewwej malajr u\u00a0b’mod effiċjenti",
+        "hint": null
+      },
+      "good": {
+        "label": "Oġġett li jkun ser jissewwa",
+        "hint": "[Identifikazzjoni tal-oġġett]"
+      },
+      "defect": {
+        "label": "Natura tad-difett",
+        "hint": "[Deskrizzjoni tad-difett]"
+      },
+      "repairType": {
+        "label": "Tip ta’ tiswija ssuġġerita",
+        "hint": "[X’tip ta’ miżuri ser jittieħdu biex jissewwa d-difett]"
+      },
+      "price": {
+        "label": "Il-prezz tat-tiswija jew, jekk ma jistax jiġi kkalkulat, il-metodu ta’ kalkolu applikabbli u\u00a0l-ogħla prezz tat-tiswija",
+        "hint": "[Dan ifisser l-ammont totali jew, jekk mhux possibbli, il-metodu ta’ kalkolu u\u00a0l-limitu massimu għas-servizz tat-tiswija, f’EUR/munita nazzjonali]"
+      },
+      "completionTime": {
+        "label": "Żmien biex titlesta t-tiswija",
+        "hint": "[Żmien sa meta s-sewwej jimpenja ruħu li jwettaq is-servizz f’jiem]"
+      },
+      "replacementAvailable": {
+        "label": "Disponibbiltà ta’ oġġetti ta’ sostituzzjoni temporanja",
+        "hint": "[Oġġett ta’ sostituzzjoni temporanja jfisser li l-konsumatur ser jirċievi oġġett ekwivalenti għall-użu matul iż-żmien tat-tiswija, is-sewwej irid jindika “Iva” jew “Le”]"
+      },
+      "replacementCost": {
+        "label": "Jekk iva, indika l-kostijiet korrispondenti, jekk hemm:",
+        "hint": "[EUR/munita nazzjonali]"
+      },
+      "handOverPlace": {
+        "label": "Post fejn jingħataw l-oġġetti",
+        "hint": "[Il-post fejn il-konsumatur jagħti l-oġġetti għat-tiswija]"
+      },
+      "ancillaryServices": {
+        "label": "Jekk applikabbli, id-disponibbiltà ta’ servizzi anċillari",
+        "hint": "[Indika jekk u\u00a0sa fejn jiġu offruti servizzi anċillari bħall-ġarr, l-installazzjoni u\u00a0t-trasport, jew “Xejn” jekk ma jiġi offrut l-ebda servizz anċillari għat-tiswija kkonċernata]"
+      },
+      "ancillaryCosts": {
+        "label": "Jekk iva, indika l-kostijiet korrispondenti, jekk hemm:",
+        "hint": "[F’EUR/munita nazzjonali, għal kull servizz offrut]"
+      },
+      "validity": {
+        "label": "Il-perjodu ta’ validità tal-Formola Ewropea ta’ Informazzjoni dwar it-Tiswija",
+        "hint": "[Perjodu ta’ validità ta’ mill-inqas 30 jum]"
+      },
+      "additionalInformation": {
+        "label": "Jekk applikabbli, informazzjoni addizzjonali",
+        "hint": null
+      }
+    },
+    "note": "Indikazzjonijiet bejn parentesi kwadri jagħtu spjegazzjonijiet lis-sewwej u\u00a0jridu jkunu sostitwiti bl-informazzjoni korrispondenti.",
+    "words": {
+      "yes": "Iva",
+      "no": "Le",
+      "none": "Xejn"
+    },
+    "sha256": "799e7cde68bfd596602f8b1cfbc1f1aac88a516c961081c090982e9c5780f2de"
+  },
+  {
+    "language": "nl",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "BIJLAGE\u00a0I",
+    "formTitle": "EUROPEES REPARATIE-INFORMATIEFORMULIER",
+    "partOne": {
+      "label": "Deel\u00a0I",
+      "heading": "Identiteit en contactgegevens van de reparateur die de reparatiedienst verleent"
+    },
+    "partTwo": {
+      "label": "Deel\u00a0II",
+      "heading": "Informatie over de reparatiedienst"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Reparateur",
+        "hint": "[Identiteit]"
+      },
+      "address": {
+        "label": "Adres",
+        "hint": "[Geografisch adres voor gebruik door de consument]"
+      },
+      "telephone": {
+        "label": "Telefoonnummer",
+        "hint": null
+      },
+      "email": {
+        "label": "E-mailadres",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Indien aangegeven door de reparateur, andere online communicatiemiddelen waarmee de consument snel en efficiënt contact kan opnemen en kan communiceren met de reparateur",
+        "hint": null
+      },
+      "good": {
+        "label": "Te repareren goed",
+        "hint": "[Identificatie van het goed]"
+      },
+      "defect": {
+        "label": "Aard van het defect",
+        "hint": "[Beschrijving van het defect]"
+      },
+      "repairType": {
+        "label": "Soort voorgestelde reparatie",
+        "hint": "[Welke soort maatregelen zullen er worden genomen om het defect te repareren]"
+      },
+      "price": {
+        "label": "Prijs van de reparatie of, indien de prijs niet kan worden berekend, de toepasselijke berekeningsmethode en de maximale prijs van de reparatie",
+        "hint": "[Dit betekent het totale bedrag of, indien dat niet kan worden berekend, de berekeningsmethode en het maximale bedrag voor de reparatiedienst, in EUR/nationale valuta]"
+      },
+      "completionTime": {
+        "label": "Tijd om de reparatie te voltooien",
+        "hint": "[Termijn in dagen waarbinnen de reparateur zich ertoe verbindt de dienst uit te voeren]"
+      },
+      "replacementAvailable": {
+        "label": "Beschikbaarheid van tijdelijke vervangende goederen",
+        "hint": "[Een tijdelijk vervangend goed betekent dat de consument een gelijkwaardig goed ontvangt voor gebruik tijdens de reparatieperiode; de reparateur moet “Ja” of “Neen” aangeven]"
+      },
+      "replacementCost": {
+        "label": "Zo ja, vermeld de bijbehorende kosten, indien van toepassing:",
+        "hint": "[In EUR/nationale valuta]"
+      },
+      "handOverPlace": {
+        "label": "Plaats waar de goederen worden ingeleverd",
+        "hint": "[De plaats waar de consument de goederen ter reparatie inlevert]"
+      },
+      "ancillaryServices": {
+        "label": "Indien van toepassing, de beschikbaarheid van aanvullende diensten",
+        "hint": "[Geef aan of en in welke mate er aanvullende diensten zoals verwijdering, installatie en transport worden aangeboden, of “Geen” als er geen aanvullende diensten worden aangeboden voor de desbetreffende reparatie]"
+      },
+      "ancillaryCosts": {
+        "label": "Zo ja, vermeld de bijbehorende kosten, indien van toepassing:",
+        "hint": "[In EUR/nationale valuta, per aangeboden dienst]"
+      },
+      "validity": {
+        "label": "De geldigheidsduur van het Europees reparatie-informatieformulier",
+        "hint": "[Geldigheidsduur van ten minste dertig dagen]"
+      },
+      "additionalInformation": {
+        "label": "Aanvullende informatie, indien van toepassing",
+        "hint": null
+      }
+    },
+    "note": "De aanwijzingen tussen vierkante haken zijn bedoeld voor de reparateur en moeten worden vervangen door de desbetreffende gegevens.",
+    "words": {
+      "yes": "Ja",
+      "no": "Neen",
+      "none": "Geen"
+    },
+    "sha256": "0b34d7ef2e18935276b4c3d146bacded6cc58ef1d00d201b805e93f2623dcbf5"
+  },
+  {
+    "language": "pl",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ZAŁĄCZNIK\u00a0I",
+    "formTitle": "EUROPEJSKI FORMULARZ INFORMACJI O\u00a0NAPRAWIE",
+    "partOne": {
+      "label": "Część I",
+      "heading": "Dane służące identyfikacji i\u00a0dane kontaktowe świadczącego usługę podmiotu zajmującego się naprawą"
+    },
+    "partTwo": {
+      "label": "Część II",
+      "heading": "Informacje o\u00a0usłudze naprawy"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Nazwa podmiotu zajmującego się naprawą",
+        "hint": "[Dane służące identyfikacji]"
+      },
+      "address": {
+        "label": "Adres",
+        "hint": "[Adres, z\u00a0którego ma korzystać konsument]"
+      },
+      "telephone": {
+        "label": "Nr telefonu",
+        "hint": null
+      },
+      "email": {
+        "label": "Adres poczty elektronicznej",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Ewentualne inne środki komunikacji online, udostępnione przez podmiot zajmujący się naprawą, umożliwiające konsumentowi szybkie i\u00a0skuteczne skontaktowanie się i\u00a0porozumiewanie się z\u00a0tym podmiotem",
+        "hint": null
+      },
+      "good": {
+        "label": "Towar, który ma zostać naprawiony",
+        "hint": "[Dane służące identyfikacji towaru]"
+      },
+      "defect": {
+        "label": "Charakter wady",
+        "hint": "[Opis wady]"
+      },
+      "repairType": {
+        "label": "Sugerowany rodzaj naprawy",
+        "hint": "[Jakie środki zostaną zastosowane w\u00a0celu naprawy wady]"
+      },
+      "price": {
+        "label": "Cena naprawy lub, jeżeli nie można jej obliczyć, metoda stosowana do jej obliczenia, oraz maksymalna cena naprawy",
+        "hint": "[Oznacza to całkowitą kwotę lub, jeżeli nie można jej określić, metodę obliczania i\u00a0pułap cenowy usługi naprawy w\u00a0EUR/walucie krajowej]"
+      },
+      "completionTime": {
+        "label": "Czas potrzebny na dokonanie naprawy",
+        "hint": "[Czas, w\u00a0którym podmiot zajmujący się naprawą zobowiązuje się do wykonania usługi, podany w\u00a0dniach]"
+      },
+      "replacementAvailable": {
+        "label": "Dostępność tymczasowych towarów zamiennych",
+        "hint": "[Tymczasowy towar zamienny oznacza, że na czas naprawy konsument otrzyma do użytku równoważny towar; podmiot zajmujący się naprawą wskazuje „Tak” lub „Nie”]"
+      },
+      "replacementCost": {
+        "label": "Jeżeli tymczasowy towar zamienny jest dostępny, należy podać odpowiednie ewentualne koszty:",
+        "hint": "[W\u00a0EUR/walucie krajowej]"
+      },
+      "handOverPlace": {
+        "label": "Miejsce przekazania towarów",
+        "hint": "[Miejsce dostarczenia przez konsumenta towarów przeznaczonych do naprawy]"
+      },
+      "ancillaryServices": {
+        "label": "W\u00a0stosownych przypadkach, dostępność usług dodatkowych",
+        "hint": "[Należy wskazać, czy i\u00a0w\u00a0jakim zakresie oferowane są usługi dodatkowe, takie jak usunięcie, instalacja i\u00a0transport, lub wskazać „Brak”, jeżeli w\u00a0przypadku danej naprawy nie oferuje się żadnej usługi dodatkowej]"
+      },
+      "ancillaryCosts": {
+        "label": "Jeżeli usługi dodatkowe są dostępne, należy podać odpowiednie ewentualne koszty:",
+        "hint": "[W\u00a0EUR/walucie krajowej za każdą oferowaną usługę]"
+      },
+      "validity": {
+        "label": "Okres ważności europejskiego formularza informacji o\u00a0naprawie",
+        "hint": "[Okres ważności wynoszący co najmniej 30 dni]"
+      },
+      "additionalInformation": {
+        "label": "W\u00a0stosownych przypadkach, dodatkowe informacje",
+        "hint": null
+      }
+    },
+    "note": "Objaśnienia w\u00a0nawiasach kwadratowych przedstawiono na potrzeby podmiotu zajmującego się naprawą i\u00a0należy je zastąpić odpowiednimi informacjami.",
+    "words": {
+      "yes": "Tak",
+      "no": "Nie",
+      "none": "Brak"
+    },
+    "sha256": "8edc1d621db09875066cf2b2ffc2b3fe5a6a9a7dc50948b66ba1f53d7b6bb248"
+  },
+  {
+    "language": "pt",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ANEXO\u00a0I",
+    "formTitle": "FORMULÁRIO EUROPEU DE INFORMAÇÕES SOBRE AS REPARAÇÕES",
+    "partOne": {
+      "label": "Parte\u00a0I",
+      "heading": "Identidade e\u00a0dados de contacto do reparador que presta o\u00a0serviço de reparação"
+    },
+    "partTwo": {
+      "label": "Parte\u00a0II",
+      "heading": "Informações sobre o\u00a0serviço de reparação"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Reparador",
+        "hint": "[Identidade]"
+      },
+      "address": {
+        "label": "Endereço",
+        "hint": "[Endereço geográfico a\u00a0utilizar pelo consumidor]"
+      },
+      "telephone": {
+        "label": "Número de telefone",
+        "hint": null
+      },
+      "email": {
+        "label": "Endereço de correio eletrónico",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Se disponibilizados pelo reparador, outros meios de comunicação em linha que permitam ao consumidor contactar e\u00a0comunicar com o\u00a0reparador de forma rápida e\u00a0eficiente",
+        "hint": null
+      },
+      "good": {
+        "label": "Bem a\u00a0reparar",
+        "hint": "[Identificação do bem]"
+      },
+      "defect": {
+        "label": "Natureza do defeito",
+        "hint": "[Descrição do defeito]"
+      },
+      "repairType": {
+        "label": "Tipo de reparação sugerido",
+        "hint": "[Que tipo de medidas serão tomadas para reparar o\u00a0defeito]"
+      },
+      "price": {
+        "label": "Preço da reparação ou, se este não puder ser calculado, método de cálculo aplicável e\u00a0preço máximo da reparação",
+        "hint": "[Ou seja, o\u00a0montante total ou, se tal não for possível, o\u00a0método de cálculo e\u00a0o preço máximo do serviço de reparação, em EUR/moeda nacional]"
+      },
+      "completionTime": {
+        "label": "Prazo para concluir a\u00a0reparação",
+        "hint": "[Prazo, em dias, até ao termo do qual o\u00a0reparador se compromete a\u00a0executar o\u00a0serviço]"
+      },
+      "replacementAvailable": {
+        "label": "Disponibilidade de bens de substituição temporária",
+        "hint": "[Um bem de substituição temporária implica que o\u00a0consumidor receba um bem equivalente para utilização durante o\u00a0período da reparação; o\u00a0reparador deve indicar «Sim» ou «Não»]"
+      },
+      "replacementCost": {
+        "label": "Em caso afirmativo, indicar os custos correspondentes, caso existam:",
+        "hint": "[Em EUR/moeda nacional]"
+      },
+      "handOverPlace": {
+        "label": "Local de entrega dos bens",
+        "hint": "[O local onde o\u00a0consumidor deve entregar os bens para reparação]"
+      },
+      "ancillaryServices": {
+        "label": "Se aplicável, a\u00a0disponibilidade de serviços complementares",
+        "hint": "[Indicar se e\u00a0em que medida são oferecidos serviços complementares como a\u00a0recolha, a\u00a0instalação e\u00a0o transporte; indicar «Nenhum» se não for oferecido qualquer serviço complementar relativamente à\u00a0reparação em causa]"
+      },
+      "ancillaryCosts": {
+        "label": "Em caso afirmativo, indicar os custos correspondentes, caso existam:",
+        "hint": "[Em EUR/moeda nacional, por serviço oferecido]"
+      },
+      "validity": {
+        "label": "Prazo de validade do formulário europeu de informações sobre as reparações",
+        "hint": "[Prazo de validade de, pelo menos, 30 dias]"
+      },
+      "additionalInformation": {
+        "label": "Se for caso disso, informações adicionais",
+        "hint": null
+      }
+    },
+    "note": "As indicações entre parênteses retos facultam explicações ao reparador e\u00a0devem ser substituídas pelas informações correspondentes.",
+    "words": {
+      "yes": "Sim",
+      "no": "Não",
+      "none": "Nenhum"
+    },
+    "sha256": "acaa0962e75a485f7b5907251b1dce5269e9389cfa63af66898ee1825df5547d"
+  },
+  {
+    "language": "ro",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "ANEXA I",
+    "formTitle": "FORMULAR EUROPEAN DE INFORMAȚII PRIVIND REPARAREA",
+    "partOne": {
+      "label": "Partea I",
+      "heading": "Identitatea și datele de contact ale reparatorului care prestează serviciul de reparare"
+    },
+    "partTwo": {
+      "label": "Partea II",
+      "heading": "Informații privind serviciul de reparare"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Reparator",
+        "hint": "[Identitate]"
+      },
+      "address": {
+        "label": "Adresă",
+        "hint": "[Adresa geografică folosită de consumator]"
+      },
+      "telephone": {
+        "label": "Număr de telefon",
+        "hint": null
+      },
+      "email": {
+        "label": "Adresă de e-mail",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "În cazul în care sunt furnizate de reparator, alte mijloace de comunicare online, care îi permit consumatorului să îl contacteze pe reparator și să comunice rapid și eficient cu acesta",
+        "hint": null
+      },
+      "good": {
+        "label": "Bunul care urmează să fie reparat",
+        "hint": "[Identificarea bunului]"
+      },
+      "defect": {
+        "label": "Natura defectului",
+        "hint": "[Descrierea defectului]"
+      },
+      "repairType": {
+        "label": "Tipul de reparație sugerat",
+        "hint": "[Ce fel de măsuri vor fi luate pentru repararea defectului]"
+      },
+      "price": {
+        "label": "Prețul reparației sau, dacă acesta nu poate fi calculat, metoda de calcul aplicabilă și prețul maxim al reparației",
+        "hint": "[Suma totală sau, dacă nu este posibil, metoda de calcul și plafonul pentru serviciul de reparare, în EUR/monedă națională]"
+      },
+      "completionTime": {
+        "label": "Timpul pentru finalizarea reparației",
+        "hint": "[Termenul în care reparatorul se angajează să efectueze serviciul, în zile]"
+      },
+      "replacementAvailable": {
+        "label": "Disponibilitatea unor bunuri de înlocuire temporară",
+        "hint": "[Un bun de înlocuire temporară înseamnă că consumatorul va primi un bun echivalent pentru a\u00a0fi utilizat pe durata reparației; reparatorul trebuie să indice „Da” sau „Nu”]"
+      },
+      "replacementCost": {
+        "label": "Dacă s-a ales „Da”, a\u00a0se indica costurile corespunzătoare, dacă este cazul:",
+        "hint": "[În EUR/moneda națională]"
+      },
+      "handOverPlace": {
+        "label": "Locul de predare a\u00a0bunurilor",
+        "hint": "[Locul în care consumatorul predă bunurile în vederea reparării]"
+      },
+      "ancillaryServices": {
+        "label": "Dacă este cazul, disponibilitatea serviciilor auxiliare",
+        "hint": "[A se indica dacă și în ce măsură se oferă servicii auxiliare, cum ar fi demontarea, instalarea și transportul, sau „Niciunul”, dacă nu se oferă niciun serviciu auxiliar pentru reparația în cauză]"
+      },
+      "ancillaryCosts": {
+        "label": "Dacă s-a ales „Da”, a\u00a0se indica costurile corespunzătoare, dacă este cazul:",
+        "hint": "[În EUR/monedă națională, pentru fiecare serviciu oferit]"
+      },
+      "validity": {
+        "label": "Perioada de valabilitate a\u00a0formularului european de informații privind repararea",
+        "hint": "[Perioadă de valabilitate de cel puțin 30 de zile]"
+      },
+      "additionalInformation": {
+        "label": "Alte informații, dacă este cazul",
+        "hint": null
+      }
+    },
+    "note": "Indicațiile dintre parantezele pătrate furnizează explicații pentru reparator și trebuie să fie înlocuite cu informațiile corespunzătoare.",
+    "words": {
+      "yes": "Da",
+      "no": "Nu",
+      "none": "Niciunul"
+    },
+    "sha256": "fc8adbb94c41fac3fb5d80b68317f0da0d5bf866863e0fea8d4427b05d91b307"
+  },
+  {
+    "language": "sk",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/SK/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "PRÍLOHA\u00a0I",
+    "formTitle": "EURÓPSKY FORMULÁR PRE INFORMÁCIE O\u00a0OPRAVE",
+    "partOne": {
+      "label": "Časť\u00a0I",
+      "heading": "Identifikačné a\u00a0kontaktné údaje opravovne poskytujúcej opravárenskú službu"
+    },
+    "partTwo": {
+      "label": "Časť\u00a0II",
+      "heading": "Informácie o\u00a0opravárenskej službe"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Opravovňa",
+        "hint": "[Identifikačné údaje]"
+      },
+      "address": {
+        "label": "Adresa",
+        "hint": "[Poštová adresa, ktorú má použiť spotrebiteľ]"
+      },
+      "telephone": {
+        "label": "Telefónne číslo",
+        "hint": null
+      },
+      "email": {
+        "label": "E-mailová adresa",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Ďalšie prostriedky online komunikácie, ak ich opravovňa poskytuje, ktoré spotrebiteľovi umožňujú rýchlo a\u00a0účinne kontaktovať opravovňu a\u00a0komunikovať s\u00a0ňou",
+        "hint": null
+      },
+      "good": {
+        "label": "Tovar, ktorý sa má opraviť",
+        "hint": "[Identifikácia tovaru]"
+      },
+      "defect": {
+        "label": "Povaha vady",
+        "hint": "[Opis vady]"
+      },
+      "repairType": {
+        "label": "Navrhovaný druh opravy",
+        "hint": "[Aké opatrenia sa prijmú na opravu vady]"
+      },
+      "price": {
+        "label": "Cena za opravu, alebo ak ju nie je možné vypočítať, uplatniteľná metóda výpočtu a\u00a0maximálna cena opravy",
+        "hint": "[Ide o\u00a0celkovú sumu, alebo ak to nie je možné, metódu výpočtu a\u00a0strop pre opravárenskú službu, v\u00a0EUR/v\u00a0národnej mene]"
+      },
+      "completionTime": {
+        "label": "Lehota na dokončenie opravy",
+        "hint": "[Lehota, v\u00a0ktorej sa opravovňa zaväzuje poskytnúť službu, vyjadrená v\u00a0dňoch]"
+      },
+      "replacementAvailable": {
+        "label": "Dostupnosť dočasného náhradného tovaru",
+        "hint": "[Dočasný náhradný tovar znamená, že spotrebiteľ dostane rovnocenný tovar na použitie počas opravy, opravovňa musí uviesť „áno“ alebo „nie“]"
+      },
+      "replacementCost": {
+        "label": "Ak áno, uveďte prípadné zodpovedajúce náklady:",
+        "hint": "[v\u00a0EUR/v\u00a0národnej mene]"
+      },
+      "handOverPlace": {
+        "label": "Miesto odovzdania tovaru",
+        "hint": "[Miesto, kde spotrebiteľ odovzdáva tovar na opravu]"
+      },
+      "ancillaryServices": {
+        "label": "Dostupnosť doplnkových služieb",
+        "hint": "[Uveďte, či a\u00a0v\u00a0akom rozsahu sa ponúkajú doplnkové služby, ako je odobratie, inštalácia a\u00a0preprava, alebo „žiadne“, ak sa v\u00a0prípade príslušnej opravy neponúka žiadna doplnková služba]"
+      },
+      "ancillaryCosts": {
+        "label": "Ak áno, uveďte prípadné zodpovedajúce náklady:",
+        "hint": "[V\u00a0EUR/v\u00a0národnej mene, na každú ponúkanú službu]"
+      },
+      "validity": {
+        "label": "Obdobie platnosti európskeho formulára pre informácie o\u00a0oprave",
+        "hint": "[Obdobie platnosti najmenej 30 dní]"
+      },
+      "additionalInformation": {
+        "label": "Prípadné doplňujúce informácie",
+        "hint": null
+      }
+    },
+    "note": "Informácie v\u00a0hranatých zátvorkách slúžia ako vysvetlenie pre opravovňu a\u00a0musia sa nahradiť zodpovedajúcimi údajmi.",
+    "words": {
+      "yes": "áno",
+      "no": "nie",
+      "none": "žiadne"
+    },
+    "sha256": "c82fcf928a8ef2d45cdf805b016d93366ab7489d475198a017e804b69e85c59d"
+  },
+  {
+    "language": "sl",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "PRILOGA\u00a0I",
+    "formTitle": "EVROPSKI OBRAZEC Z\u00a0INFORMACIJAMI O\u00a0POPRAVILU",
+    "partOne": {
+      "label": "Del I",
+      "heading": "Identiteta in kontaktni podatki popravljavca, ki ponuja storitev popravila"
+    },
+    "partTwo": {
+      "label": "Del II",
+      "heading": "Informacije o\u00a0storitvi popravila"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Popravljavec",
+        "hint": "[identiteta]"
+      },
+      "address": {
+        "label": "Naslov",
+        "hint": "[geografski naslov, ki ga lahko uporabi potrošnik]"
+      },
+      "telephone": {
+        "label": "Telefonska številka",
+        "hint": null
+      },
+      "email": {
+        "label": "Elektronski naslov",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Če jih je popravljavec zagotovil, drugi načini spletnega komuniciranja, ki potrošniku omogočajo hiter in učinkovit stik ter komunikacijo s\u00a0popravljavcem",
+        "hint": null
+      },
+      "good": {
+        "label": "Blago, ki ga je treba popraviti",
+        "hint": "[identifikacija blaga]"
+      },
+      "defect": {
+        "label": "Vrsta napake",
+        "hint": "[opis napake]"
+      },
+      "repairType": {
+        "label": "Predlagana vrsta popravila",
+        "hint": "[vrsta ukrepov za odpravo napake]"
+      },
+      "price": {
+        "label": "Cena popravila ali, če cene ni mogoče izračunati, metoda izračuna, ki bo uporabljena, in najvišja cena popravila",
+        "hint": "[to pomeni skupni znesek ali, če to ni mogoče, metodo izračuna in zgornjo mejo za storitev popravila v\u00a0EUR\u00a0/ nacionalni valuti]"
+      },
+      "completionTime": {
+        "label": "Čas za izvedbo popravila",
+        "hint": "[rok, v\u00a0dneh, do katerega se popravljavec zaveže, da bo opravil storitev]"
+      },
+      "replacementAvailable": {
+        "label": "Možnost začasne zagotovitve nadomestnega blaga",
+        "hint": "[začasna zagotovitev nadomestnega blaga pomeni, da bo potrošnik prejel enakovredno blago za uporabo v\u00a0času popravila; popravljavec navede „da“ ali „ne“]"
+      },
+      "replacementCost": {
+        "label": "Če je navedeno „da“, navedite morebitne stroške:",
+        "hint": "[v\u00a0EUR\u00a0/ nacionalni valuti]"
+      },
+      "handOverPlace": {
+        "label": "Kraj izročitve blaga",
+        "hint": "[kraj, kjer potrošnik izroči blago v\u00a0popravilo]"
+      },
+      "ancillaryServices": {
+        "label": "Po potrebi razpoložljivost pomožnih storitev",
+        "hint": "[navedite, ali se ponujajo pomožne storitve, kot so odstranitev, namestitev in prevoz, ter v\u00a0kakšnem obsegu so te storitve na voljo, oziroma „jih ni“, če za zadevno popravilo ni ponujena nobena pomožna storitev]"
+      },
+      "ancillaryCosts": {
+        "label": "Če je navedeno „da“, navedite morebitne stroške:",
+        "hint": "[v\u00a0EUR\u00a0/ nacionalni valuti, za posamezno ponujeno storitev]"
+      },
+      "validity": {
+        "label": "Obdobje veljavnosti evropskega obrazca z\u00a0informacijami o\u00a0popravilu",
+        "hint": "[obdobje veljavnosti najmanj 30 dni]"
+      },
+      "additionalInformation": {
+        "label": "Po potrebi dodatne informacije",
+        "hint": null
+      }
+    },
+    "note": "Popravljavec mora pojasnilo v\u00a0oglatem oklepaju nadomestiti z\u00a0ustreznimi informacijami.",
+    "words": {
+      "yes": "da",
+      "no": "ne",
+      "none": "jih ni"
+    },
+    "sha256": "a6172adedb30ca4cc89768bfc91c9308e76015f8158b56479e169a1924081cf8"
+  },
+  {
+    "language": "fi",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "LIITE I",
+    "formTitle": "EUROOPPALAINEN KORJAUSTIETOLOMAKE",
+    "partOne": {
+      "label": "I\u00a0osa",
+      "heading": "Korjauspalvelun tarjoavan korjaajan henkilöllisyys ja yhteystiedot"
+    },
+    "partTwo": {
+      "label": "II\u00a0osa",
+      "heading": "Korjauspalvelua koskevat tiedot"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Korjaaja",
+        "hint": "[Henkilöllisyys]"
+      },
+      "address": {
+        "label": "Osoite",
+        "hint": "[Käyntiosoite, jossa kuluttaja voi asioida]"
+      },
+      "telephone": {
+        "label": "Puhelinnumero",
+        "hint": null
+      },
+      "email": {
+        "label": "Sähköpostiosoite",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Korjaajan mahdollisesti tarjoamat muut verkkoviestintävälineet, joiden avulla kuluttaja voi ottaa yhteyttä korjaajaan ja viestiä tämän kanssa nopeasti ja tehokkaasti",
+        "hint": null
+      },
+      "good": {
+        "label": "Korjattava tavara",
+        "hint": "[Tavaran tunnistetiedot]"
+      },
+      "defect": {
+        "label": "Virheen luonne",
+        "hint": "[Virheen kuvaus]"
+      },
+      "repairType": {
+        "label": "Ehdotettu korjaustapa",
+        "hint": "[Millä tavoin virhe korjataan]"
+      },
+      "price": {
+        "label": "Korjaamisen hinta tai, jos sitä ei voida laskea, käytettävä laskentamenetelmä ja korjaamisen enimmäishinta",
+        "hint": "[Tällä tarkoitetaan korjauspalvelun kokonaishintaa tai, jos sitä ei voida ilmoittaa, hinnan laskemisessa käytettävää menetelmää ja korjauspalvelun enimmäishintaa euroina\u00a0/ kansallisena valuuttana]"
+      },
+      "completionTime": {
+        "label": "Korjaamiseen tarvittava aika",
+        "hint": "[Aika, jonka kuluessa korjaaja sitoutuu suorittamaan palvelun, päivinä]"
+      },
+      "replacementAvailable": {
+        "label": "Tilapäisten korvaavien tavaroiden saatavuus",
+        "hint": "[Tilapäisellä korvaavalla tavaralla tarkoitetaan sitä, että kuluttaja saa vastaavan tavaran käyttöön korjaamisen ajaksi, eli korjaaja merkitsee kohtaan ”Kyllä” tai ”Ei”]"
+      },
+      "replacementCost": {
+        "label": "Jos lisäpalveluja on saatavilla, niiden kustannukset",
+        "hint": "[euroina\u00a0/ kansallisena valuuttana]"
+      },
+      "handOverPlace": {
+        "label": "Tavaroiden luovutuspaikka",
+        "hint": "[Paikka, jossa kuluttaja luovuttaa tavaran korjattavaksi]"
+      },
+      "ancillaryServices": {
+        "label": "Tarvittaessa lisäpalvelujen saatavuus",
+        "hint": "[Ilmoitetaan mahdolliset tarjottavat lisäpalvelut, kuten poistaminen, asentaminen ja kuljetus, ja niiden laajuus. Jos kyseistä korjausta varten ei tarjota lisäpalvelua, merkitään ”Ei ole”]"
+      },
+      "ancillaryCosts": {
+        "label": "Jos lisäpalveluja on saatavilla, niiden kustannukset",
+        "hint": "[euroina\u00a0/ kansallisena valuuttana kutakin tarjottua palvelua kohden]"
+      },
+      "validity": {
+        "label": "Eurooppalaisen korjaustietolomakkeen voimassaoloaika",
+        "hint": "[Voimassaoloaika vähintään 30 päivää]"
+      },
+      "additionalInformation": {
+        "label": "Mahdollisesti tarvittavat lisätiedot",
+        "hint": null
+      }
+    },
+    "note": "Hakasulkeissa olevat maininnat ovat selityksiä korjaajalle, ja ne on korvattava vastaavilla tiedoilla.",
+    "words": {
+      "yes": "Kyllä",
+      "no": "Ei",
+      "none": "Ei ole"
+    },
+    "sha256": "aefd95ad36bc54e4d1740023d9d2ecf65e0f98d5f385520dca468ed8cdd2876b"
+  },
+  {
+    "language": "sv",
+    "source": "official",
+    "url": "https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=CELEX:32024L1799",
+    "annexTitle": "BILAGA\u00a0I",
+    "formTitle": "EUROPEISKT FORMULÄR FÖR REPARATIONSINFORMATION",
+    "partOne": {
+      "label": "Del\u00a0I",
+      "heading": "Identitet och kontaktuppgifter för den reparatör som tillhandahåller reparationstjänsten"
+    },
+    "partTwo": {
+      "label": "Del\u00a0II",
+      "heading": "Information om reparationstjänsten"
+    },
+    "rows": {
+      "repairer": {
+        "label": "Reparatör",
+        "hint": "[Identitet]"
+      },
+      "address": {
+        "label": "Adress",
+        "hint": "[Geografisk adress som konsumenten ska använda]"
+      },
+      "telephone": {
+        "label": "Telefonnummer",
+        "hint": null
+      },
+      "email": {
+        "label": "E-postadress",
+        "hint": null
+      },
+      "otherMeans": {
+        "label": "Andra kommunikationsmedel online som gör det möjligt för konsumenten att snabbt och effektivt kontakta och kommunicera med reparatören, om sådana tillhandahålls av reparatören.",
+        "hint": null
+      },
+      "good": {
+        "label": "Vara som ska repareras",
+        "hint": "[Identifiering av varan]"
+      },
+      "defect": {
+        "label": "Felets natur",
+        "hint": "[Beskrivning av felet]"
+      },
+      "repairType": {
+        "label": "Typ av reparation som föreslås",
+        "hint": "[Vilka typer av åtgärder kommer att vidtas för att reparera felet]"
+      },
+      "price": {
+        "label": "Pris för reparation eller, om det inte går att beräkna, tillämplig beräkningsmetod och maximipris för reparationen",
+        "hint": "[Detta avser det totala beloppet eller, om detta inte är möjligt, beräkningsmetoden och pristaket för reparationstjänsten, i\u00a0EUR/nationell valuta]"
+      },
+      "completionTime": {
+        "label": "Tid för att slutföra reparationen",
+        "hint": "[Tid i\u00a0antal dagar då reparatören åtar sig att utföra tjänsten]"
+      },
+      "replacementAvailable": {
+        "label": "Tillgång till tillfällig ersättningsvara",
+        "hint": "[Med tillfällig ersättningsvara förstås att konsumenten kommer att få en likvärdig vara för användning under reparationstiden, reparatören ska ange ”Ja” eller ”Nej”.]"
+      },
+      "replacementCost": {
+        "label": "Om ja, ange i\u00a0förekommande fall motsvarande kostnader:",
+        "hint": "[I EUR/nationell valuta]."
+      },
+      "handOverPlace": {
+        "label": "Plats för överlämnande av varorna",
+        "hint": "[Den plats där konsumenten ska överlämna varan för reparation]"
+      },
+      "ancillaryServices": {
+        "label": "I förekommande fall, tillgången till stödtjänster",
+        "hint": "[Ange om och i\u00a0vilken mån stödtjänster som flyttning, installation och transport erbjuds, eller ”Inga” om ingen stödtjänst erbjuds för den berörda reparationen]"
+      },
+      "ancillaryCosts": {
+        "label": "Om ja, ange i\u00a0förekommande fall motsvarande kostnader:",
+        "hint": "[I EUR/nationell valuta, per erbjuden tjänst]"
+      },
+      "validity": {
+        "label": "Giltighetstiden för det europeiska formuläret för reparationsinformation",
+        "hint": "[Giltighetstid på minst 30 dagar]"
+      },
+      "additionalInformation": {
+        "label": "I förekommande fall, ytterligare information",
+        "hint": null
+      }
+    },
+    "note": "Texten inom hakparentes utgör förklarande information till reparatören och måste ersättas med motsvarande uppgifter.",
+    "words": {
+      "yes": "Ja",
+      "no": "Nej",
+      "none": "Inga"
+    },
+    "sha256": "e9d9a6af953cd6a8b02204ada92cc1d2b54b177c3a34e909bb3d85c661d38bb8"
+  }
+]
